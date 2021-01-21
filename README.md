@@ -60,7 +60,16 @@ Process descriptions may also include:
 - There are no right or wrong software processes.
 
 ## Software process models
+The waterfall model
+ - Plan-driven model. Separate and distinct phases of specification and development.
 
+Incremental development
+ - Specification, development and validation are interleaved. May be plan-driven or agile.
+ 
+Integration and configuration (components based SDLC)
+ - The system is assembled from existing configurable components. May be plan-driven or agile.
+
+In practice, most large systems are developed using a process that incorporates elements from all of these models.
 
 ## Process activities
 
