@@ -117,10 +117,12 @@ Mostly use for complex and large system (system is developed at several side: Pl
 
 ---
 
-## Process activities
+# Process activities
+
+![img](https://github.com/jackyhuynh/Software_Development_Handbook/blob/main/images/SDLC.PNG)
 
 
-## Coping with change
+# Coping with change
 
 1. Microsoft DevOps
 2. Jira development
