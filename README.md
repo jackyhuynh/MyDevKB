@@ -174,6 +174,20 @@ Requirements elicitation and analysis
 
 - Testing with customer data to check that the system meets the customer's needs
 
+### D. Software Evolution:
+
+- Software is inherently flexible and can change.
+- As requirement change through changing business circumstances, the software that support the business must also evole and change.
+- Although there has been a demarcation between development and evolution (maintenance) This is increasingly irrelevant as fewer system are completely new.
+- Re factor: changing internal structure without changing external behaviour of the system
+
+### Key points:
+
+- Design and implementation processes are concerned with transforming a requirements specification into an executable software system. 
+- Software validation is the process of checking that the system conforms to its specification and that it meets the real needs of the users of the system.
+- Software evolution takes place when you change existing software systems to meet new requirements. The software must evolve to remain useful.
+- Processes should include activities such as prototyping and incremental delivery to cope with change.
+
 ---
 
 # Coping with change
