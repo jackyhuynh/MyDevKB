@@ -48,40 +48,47 @@ In practice, most large systems are developed using a process that incorporates 
 
 There are separate identified phases in the waterfall model:
     - Requirements analysis and definition
-    - System and software design▪Implementation and unit testing▪Integration and system testing▪Operation and maintenanceThe main drawback of the waterfall model is the difficulty of accommodating change after the process is underway. In principle, a phase has to be complete before moving onto the next phase.
+    - System and software design
+    - Implementation and unit testing
+    - Integration and system testing
+    - Operation and maintenance
+The main drawback of the waterfall model is the difficulty of accommodating change after the process is underway. In principle, a phase has to be complete before moving onto the next phase.
 
 ### 2. Waterfall Model Problems:
 
-    - Mostly use for complex and large system (system is developed at several side: Plan everyting in the next 2 years 
+Mostly use for complex and large system (system is developed at several side: Plan everyting in the next 2 years 
 
 ### 3. Incremental development benefits
 
-    ![img](https://github.com/jackyhuynh/Software_Development_Handbook/blob/main/images/Incremetal%20Development.PNG)
+![img](https://github.com/jackyhuynh/Software_Development_Handbook/blob/main/images/Incremetal%20Development.PNG)
 
-    - The costof accommodating changing customer requirements is reduced. 
-    - The amount of analysis and documentation that has to be redone is much less than is required with the waterfall model.
+- The costof accommodating changing customer requirements is reduced. 
 
-    - It is easier to get customer feedback on the development work that has been done. ▪Customers can comment on demonstrations of the software and see how much has been implemented. 
+- The amount of analysis and documentation that has to be redone is much less than is required with the waterfall model.
 
-    - More rapid delivery and deployment of useful software to the customer is possible. ▪Customers are able to use and gain value from the software earlier than is possible with a waterfall process.
+- It is easier to get customer feedback on the development work that has been done. ▪Customers can comment on demonstrations of the software and see how much has been implemented. 
+
+- More rapid delivery and deployment of useful software to the customer is possible. ▪Customers are able to use and gain value from the software earlier than is possible with a waterfall process.
 
 ### 4. Incremental development problems
 
-    - The process is not visible. 
+- The process is not visible. 
 
-    - Managers need regular deliverables to measure progress. If systems are developed quickly, it is not cost-effective to produce documents that reflect every version of the system. 
+- Managers need regular deliverables to measure progress. If systems are developed quickly, it is not cost-effective to produce documents that reflect every version of the system. 
 
-    - System structure tends to degrade as new increments are added. ▪
-    - Unless time and money is spent on refactoringto improve the software, regular change tends to corrupt its structure. 
-    - Incorporating further software changes becomes increasingly difficult and costly.
+- System structure tends to degrade as new increments are added.
+
+- Unless time and money is spent on refactoringto improve the software, regular change tends to corrupt its structure.
+
+- Incorporating further software changes becomes increasingly difficult and costly.
 
 ### 5. Integration and configuration
 
-    - Based on software reuse where systems are integrated from existing components or application systems (sometimes called COTS -Commercial-off-the-shelf) systems).
+- Based on software reuse where systems are integrated from existing components or application systems (sometimes called COTS -Commercial-off-the-shelf) systems).
 
-    - Reused elements may be configured to adapttheir behaviour and functionality to a user’s requirements
+- Reused elements may be configured to adapttheir behaviour and functionality to a user’s requirements
 
-    - Reuse is now the standard approachfor building many types of business system
+- Reuse is now the standard approachfor building many types of business system
 
 ## Process activities
 
