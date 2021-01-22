@@ -1,14 +1,14 @@
 # Software_Development_Handbook
 
-# Topic Covered
 
-## Software Processes
+
+# Software Processes
 Topics covered
 - Software process models 
 - Process activities
 - Coping with change
 
-### 1. The software process
+## 1. The software process
 A structured set of activities required to develop a software system.  Many different software processes but all involve:
  - Specification: defining what the system should do;▪
  - Design and implementation: defining the organization of the system and implementing the system;
@@ -17,20 +17,20 @@ A structured set of activities required to develop a software system.  Many diff
 
 A software process model is an abstract representation of a process. It presents a description of a process from some particular perspective.
 
-### 2. Software process descriptions:
+## 2. Software process descriptions:
 When we describe and discuss processes, we usually talk about the activitiesin these processes such as specifying a data model, designing a user interface, etc. and the ordering of these activities.
 Process descriptions may also include:
  - Products: which are the outcomes of a process activity;
  - Roles: which reflect the responsibilities of the people involved in the process;
  - Pre-and post-conditions: which are statements that are true before and after a process activity has been enacted or a product produced. 
 
-### 3. Plan-driven and agile processes
+## 3. Plan-driven and agile processes
 - Plan-drivenprocesses are processes where all of the process activities are planned in advance and progress is measured against this plan. 
 - In agile processes, planning is incremental and it is easier to change the process to reflect changing customer requirements. 
 - In practice, most practical processes include elements of both plan-driven and agile approaches. 
 - There are no right or wrong software processes.
 
-## Software process models
+# Software process models
 The waterfall model
  - Plan-driven model. Separate and distinct phases of specification and development.
 
@@ -43,6 +43,10 @@ Integration and configuration (components based SDLC)
 In practice, most large systems are developed using a process that incorporates elements from all of these models.
 
 ![img](https://github.com/jackyhuynh/Software_Development_Handbook/blob/main/images/water_Fall.PNG)
+
+---
+
+## The Wasterfall Model
 
 ### 1. Waterfall model phases
 
@@ -58,7 +62,11 @@ The main drawback of the waterfall model is the difficulty of accommodating chan
 
 Mostly use for complex and large system (system is developed at several side: Plan everyting in the next 2 years 
 
-### 3. Incremental development benefits
+---
+
+## The Incremental development (plan-driven or agile)
+
+### 1. Incremental development benefits
 
 ![img](https://github.com/jackyhuynh/Software_Development_Handbook/blob/main/images/Incremetal%20Development.PNG)
 
@@ -70,7 +78,7 @@ Mostly use for complex and large system (system is developed at several side: Pl
 
 - More rapid delivery and deployment of useful software to the customer is possible. ▪Customers are able to use and gain value from the software earlier than is possible with a waterfall process.
 
-### 4. Incremental development problems
+### 2. Incremental development problems
 
 - The process is not visible. 
 
@@ -82,13 +90,17 @@ Mostly use for complex and large system (system is developed at several side: Pl
 
 - Incorporating further software changes becomes increasingly difficult and costly.
 
-### 5. Integration and configuration
+### 3. Integration and configuration
 
 - Based on software reuse where systems are integrated from existing components or application systems (sometimes called COTS -Commercial-off-the-shelf) systems).
 
 - Reused elements may be configured to adapttheir behaviour and functionality to a user’s requirements
 
 - Reuse is now the standard approachfor building many types of business system
+
+![img]()
+
+---
 
 ## Process activities
 
@@ -98,30 +110,4 @@ Mostly use for complex and large system (system is developed at several side: Pl
 1. Microsoft DevOps
 2. Jira development
 
-# 1/21/2021 Zoom meating.
-
-## Requirement Overview:
-
-Project description and requirement. 
-- SDLC Process
-- Team Size: 4
-- Deadline: January 21 2021
-- Project Title: Dicuss the title
-
-- Communication:
- - Policies: 
- - Project Clients: Communicate with the clients perspectives. Understand with the clients. What happen if COVID 19 happen
- - Teamwork: 
-
-- Project SDLC Model (adoption): 
- - Waterfall:
- - Agile:
- - Mix of SDLC Models:
-
-- Project Management Tools: 
-
-## Requirement
- - UI/UX:
-    Very important UI/UX
-
-## Group member 1/21/2021 Zoom meating.    
+   
