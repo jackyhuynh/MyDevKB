@@ -71,6 +71,22 @@ Integration and configuration (components based SDLC)
 
 In practice, most large systems are developed using a process that incorporates elements from all of these models.
 
+![img](https://github.com/jackyhuynh/Software_Development_Handbook/blob/main/images/water_Fall.PNG)
+
+### 1. Waterfall model phases
+
+There are separate identified phases in the waterfall model:▪Requirements analysis and definition▪System and software design▪Implementation and unit testing▪Integration and system testing▪Operation and maintenanceThe main drawback of the waterfall model is the difficulty of accommodating change after the process is underway. In principle, a phase has to be complete before moving onto the next phase.
+
+### 2. Waterfall Model Problems:
+
+Mostly use for complex and large system (system is developed at several side: Plan everyting in the next 2 years 
+
+### 3. Incremental development benefits
+
+
+
+The costof accommodating changing customer requirements is reduced. ▪The amount of analysis and documentation that has to be redone is much less than is required with the waterfall model.It is easier to get customer feedback on the development work that has been done. ▪Customers can comment on demonstrations of the software and see how much has been implemented. More rapid delivery and deployment of useful software to the customer is possible. ▪Customers are able to use and gain value from the software earlier than is possible with a waterfall process.
+
 ## Process activities
 
 
