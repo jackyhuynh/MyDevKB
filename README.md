@@ -47,16 +47,16 @@ In practice, most large systems are developed using a process that incorporates 
 ### 1. Waterfall model phases
 
 There are separate identified phases in the waterfall model:
-- Requirements analysis and definition
-- System and software design▪Implementation and unit testing▪Integration and system testing▪Operation and maintenanceThe main drawback of the waterfall model is the difficulty of accommodating change after the process is underway. In principle, a phase has to be complete before moving onto the next phase.
+    - Requirements analysis and definition
+    - System and software design▪Implementation and unit testing▪Integration and system testing▪Operation and maintenanceThe main drawback of the waterfall model is the difficulty of accommodating change after the process is underway. In principle, a phase has to be complete before moving onto the next phase.
 
 ### 2. Waterfall Model Problems:
 
-Mostly use for complex and large system (system is developed at several side: Plan everyting in the next 2 years 
+    - Mostly use for complex and large system (system is developed at several side: Plan everyting in the next 2 years 
 
 ### 3. Incremental development benefits
 
-![img](https://github.com/jackyhuynh/Software_Development_Handbook/blob/main/images/Incremetal%20Development.PNG)
+    ![img](https://github.com/jackyhuynh/Software_Development_Handbook/blob/main/images/Incremetal%20Development.PNG)
 
     - The costof accommodating changing customer requirements is reduced. 
     - The amount of analysis and documentation that has to be redone is much less than is required with the waterfall model.
@@ -93,7 +93,7 @@ Mostly use for complex and large system (system is developed at several side: Pl
 
 # 1/21/2021 Zoom meating.
 
-## Overview:
+## Requirement Overview:
 
 Project description and requirement. 
 - SDLC Process
@@ -116,3 +116,5 @@ Project description and requirement.
 ## Requirement
  - UI/UX:
     Very important UI/UX
+
+## Group member 1/21/2021 Zoom meating.    
