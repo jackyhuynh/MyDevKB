@@ -98,7 +98,22 @@ Mostly use for complex and large system (system is developed at several side: Pl
 
 - Reuse is now the standard approachfor building many types of business system
 
-![img]()
+![img](https://github.com/jackyhuynh/Software_Development_Handbook/blob/main/images/Reuse_Oriented_SE.PNG)
+
+### Key Process Stages:
+
+* Requirement Specification
+* Software discovery and evaluation
+* Requirement Refinement
+* Application System Configuration
+* Component Adaption and Integration
+
+### Advantage and Disadvantages:
+
+* Reduced cost and Risks as less software is developed from stratch
+* Faster delivery and deployment of system
+* But requirements compromises are inevitable so system may not meet real needs of users
+* Loss of control over evolution of reused system elements
 
 ---
 
