@@ -1,8 +1,8 @@
 # Software_Development_Handbook
 
+![img](https://github.com/jackyhuynh/Software_Development_Handbook/blob/main/images/SDLC.PNG)
 
-
-# Software Processes
+# What is Software Processes?
 Topics covered
 - Software process models 
 - Process activities
@@ -119,7 +119,13 @@ Mostly use for complex and large system (system is developed at several side: Pl
 
 # Process activities
 
-![img](https://github.com/jackyhuynh/Software_Development_Handbook/blob/main/images/SDLC.PNG)
+## Requirements engineering process
+Requirements elicitation and analysis
+
+- What do the system stakeholders require or expect from the system?
+- Requirements specification
+- Defining the requirements in detail
+- Requirements validation•Checking the validity of the requirements
 
 
 # Coping with change
