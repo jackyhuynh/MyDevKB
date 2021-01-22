@@ -8,14 +8,14 @@ Topics covered
 - Process activities
 - Coping with change
 
-- [Full article on Software Processes]() 
+[Full article on Software Processes](/handbook/SoftwareProcess.md) 
 
 ---
 
 ## Software Develop Management App
 
-1. Microsoft DevOps
-2. Jira development
+1. Microsoft Azure DevOps
+2. Jira Development
 3. Slack
 
    
