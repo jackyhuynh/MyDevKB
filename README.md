@@ -2,35 +2,6 @@
 
 # Topic Covered
 
-# 1/21/2021 Zoom meating.
-
-## Overview:
-
-Project description and requirement. 
-- SDLC Process
-
-- Team Size: 4
-
-- Deadline: January 21 2021
-
-- Project Title: Dicuss the title
-
-- Communication:
- - Policies: 
- - Project Clients: Communicate with the clients perspectives. Understand with the clients. What happen if COVID 19 happen
- - Teamwork: 
-
-- Project SDLC Model (adoption): 
- - Waterfall:
- - Agile:
- - Mix of SDLC Models:
-
-- Project Management Tools: 
-
-## Requirement
- - UI/UX:
-    Very important UI/UX
-
 ## Software Processes
 Topics covered
 - Software process models 
@@ -87,25 +58,30 @@ Mostly use for complex and large system (system is developed at several side: Pl
 
 ![img](https://github.com/jackyhuynh/Software_Development_Handbook/blob/main/images/Incremetal%20Development.PNG)
 
-The costof accommodating changing customer requirements is reduced. ▪The amount of analysis and documentation that has to be redone is much less than is required with the waterfall model.
+    - The costof accommodating changing customer requirements is reduced. 
+    - The amount of analysis and documentation that has to be redone is much less than is required with the waterfall model.
 
-It is easier to get customer feedback on the development work that has been done. ▪Customers can comment on demonstrations of the software and see how much has been implemented. 
+    - It is easier to get customer feedback on the development work that has been done. ▪Customers can comment on demonstrations of the software and see how much has been implemented. 
 
-More rapid delivery and deployment of useful software to the customer is possible. ▪Customers are able to use and gain value from the software earlier than is possible with a waterfall process.
+    - More rapid delivery and deployment of useful software to the customer is possible. ▪Customers are able to use and gain value from the software earlier than is possible with a waterfall process.
 
 ### 4. Incremental development problems
 
-The process is not visible. ▪Managers need regular deliverables to measure progress. If systems are developed quickly, it is not cost-effective to produce documents that reflect every version of the system. 
+    - The process is not visible. 
 
-System structure tends to degrade as new increments are added. ▪Unless time and money is spent on refactoringto improve the software, regular change tends to corrupt its structure. Incorporating further software changes becomes increasingly difficult and costly.
+    - Managers need regular deliverables to measure progress. If systems are developed quickly, it is not cost-effective to produce documents that reflect every version of the system. 
+
+    - System structure tends to degrade as new increments are added. ▪
+    - Unless time and money is spent on refactoringto improve the software, regular change tends to corrupt its structure. 
+    - Incorporating further software changes becomes increasingly difficult and costly.
 
 ### 5. Integration and configuration
 
-Based on software reuse where systems are integrated from existing components or application systems (sometimes called COTS -Commercial-off-the-shelf) systems).
+    - Based on software reuse where systems are integrated from existing components or application systems (sometimes called COTS -Commercial-off-the-shelf) systems).
 
-Reused elements may be configured to adapttheir behaviour and functionality to a user’s requirements
+    - Reused elements may be configured to adapttheir behaviour and functionality to a user’s requirements
 
-Reuse is now the standard approachfor building many types of business system
+    - Reuse is now the standard approachfor building many types of business system
 
 ## Process activities
 
@@ -113,4 +89,30 @@ Reuse is now the standard approachfor building many types of business system
 ## Coping with change
 
 1. Microsoft DevOps
-2. Jira
+2. Jira development
+
+# 1/21/2021 Zoom meating.
+
+## Overview:
+
+Project description and requirement. 
+- SDLC Process
+- Team Size: 4
+- Deadline: January 21 2021
+- Project Title: Dicuss the title
+
+- Communication:
+ - Policies: 
+ - Project Clients: Communicate with the clients perspectives. Understand with the clients. What happen if COVID 19 happen
+ - Teamwork: 
+
+- Project SDLC Model (adoption): 
+ - Waterfall:
+ - Agile:
+ - Mix of SDLC Models:
+
+- Project Management Tools: 
+
+## Requirement
+ - UI/UX:
+    Very important UI/UX
