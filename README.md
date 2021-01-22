@@ -127,6 +127,54 @@ Requirements elicitation and analysis
 - Defining the requirements in detail
 - Requirements validation•Checking the validity of the requirements
 
+## Requirement Type:
+
+- Functional –Internal to system 
+- Non-Functional –External to system
+
+---
+
+# Software Design and Implementation
+
+- The process of converting the system specification into an executable system
+- Software design: Design a software structure that realises the specification.
+- Implementation: Translate this structure into an executable program.- - The activities of design and implementation are closely related and may be inter-leaved.
+
+## 1. Software Design Activities:
+
+- Archtecture Design: Where we identify the overall structure of the system, the principal components (subsytem and modules), their relationship and how they are distributed.
+- Database Design: Where we design the system data structures and how these are to be represented in a database
+- Interface design: where you define the interface between system components
+- Component selection and design: Search for reuse components. if unavailable, we will have to design 
+
+## 2. UI Validation:
+
+- Browser Testing: All browsers Test
+- Operating System Test: Window, Mac, Linux...
+- Hardware: 
+- Mobile: Android, iOS, many more (ALL VERSION)
+
+## 3. Software Validation:
+
+- Verfication and Validation (V&V) is intended to show that a system meet its specs. and meets the customer's requirement.
+- Involves Check & Review Process and System Test.
+
+## 4. Testing Stages:
+
+### A. Component Testing:
+
+- Individual components are tested independently.
+- Components may be functions or object or coherent groupings of these entities.
+
+### B. System Testing:
+
+- Testing of the system as a whole. Testing of emergent properties is particularly important.
+
+### C. Customer Testing:
+
+- Testing with customer data to check that the system meets the customer's needs
+
+---
 
 # Coping with change
 
