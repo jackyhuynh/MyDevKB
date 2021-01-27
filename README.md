@@ -25,7 +25,7 @@ Understand A Computational Problem. Problem is defined by:
 3. Understand What is the best Output
 4. Problem Statement
 5. Works out some examples (Understand the relation between input and output)
-5.1 Create Test case to test result.
+ - 5.1 Create Test case to test result.
 6. Write Pseudocode: Simple mechanical Solution
 7. Write small bit of code test them to make progress (Develop small and testable)
 8. Deal with the complexity.
