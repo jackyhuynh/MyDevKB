@@ -29,3 +29,10 @@ Understand A Computational Problem. Problem is defined by:
 6. Write Pseudocode: Simple mechanical Solution
 7. Write small bit of code test them to make progress (Develop small and testable)
 8. Deal with the complexity.
+
+## Team
+3. Defining the system
+4. Managing Scope
+5. Update User requirement.
+
+## 
