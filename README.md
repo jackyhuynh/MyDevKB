@@ -18,7 +18,7 @@ Topics covered
 2. Jira Development
 3. Slack
 
-## How to solve a problems: 
+## How to solve a problems (Solution): 
 Understand A Computational Problem. Problem is defined by:
 1. Do not panic! (Calm down)
 2. Understand What is Possible input(set) (write on paper, do whatever possible could to solve the problem)
@@ -35,4 +35,11 @@ Understand A Computational Problem. Problem is defined by:
 4. Managing Scope
 5. Update User requirement.
 
-## 
+## Requirement Process
+
+- Validate the requirement
+- Documentation: Part of software development
+
+![IMG](https://github.com/jackyhuynh/Software_Development_Handbook/blob/main/images/Software_Requirement.PNG)
+
+- Functional requirement and Nonfunctional requirement. 
