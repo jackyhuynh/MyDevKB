@@ -24,7 +24,7 @@ Understand A Computational Problem. Problem is defined by:
 2. Understand What is Possible input(set) (write on paper, do whatever possible could to solve the problem)
 3. Understand What is the best Output
 4. Problem Statement
-5. Works out some examples (Understand the relation between input and output)
+5. Works out some examples (Understand the relation between input and output).
  - 5.1 Create Test case to test result.
 6. Write Pseudocode: Simple mechanical Solution
 7. Write small bit of code test them to make progress (Develop small and testable)
@@ -42,4 +42,5 @@ Understand A Computational Problem. Problem is defined by:
 
 ![IMG](https://github.com/jackyhuynh/Software_Development_Handbook/blob/main/images/Software_Requirement.PNG)
 
-- Functional requirement and Nonfunctional requirement. 
+- Functional requirement (battery, camera, responsiveness) important to Software Engineer and Nonfunctional requirement (Review, Rating, name) important in business's requirement.
+-  Requirement Presentation: Specific aspect of the requirement. Depend on the clients requirement (Text file, model, mathematical, Prototype/Wireframes...) and made for specific requirement. More process to understand the problem. 
