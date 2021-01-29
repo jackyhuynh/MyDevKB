@@ -44,3 +44,15 @@ Understand A Computational Problem. Problem is defined by:
 
 - Functional requirement (battery, camera, responsiveness) important to Software Engineer and Nonfunctional requirement (Review, Rating, name) important in business's requirement.
 -  Requirement Presentation: Specific aspect of the requirement. Depend on the clients requirement (Text file, model, mathematical, Prototype/Wireframes...) and made for specific requirement. More process to understand the problem. 
+
+- Communication
+- Maintainability/ Decoding
+- Training Material
+
+### User Requirement:
+- 1 or two high level description, simply state the problem (Clients manager, System end-users, Client Engineers, Contract Managers, System Architects)
+
+
+### System Requirement:
+- Implement the user requirement to technical requirement
+- Details and understand the problems (System end-users, Client Engineers, System Architects, Software Developers)
