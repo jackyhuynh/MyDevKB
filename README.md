@@ -50,9 +50,30 @@ Understand A Computational Problem. Problem is defined by:
 - Training Material
 
 ### User Requirement:
-- 1 or two high level description, simply state the problem (Clients manager, System end-users, Client Engineers, Contract Managers, System Architects)
-
+- 1 or two high level description, simply state the problem (Clients manager, System end-users, Client Engineers, Contract Managers, System Architects). Non-technical requirement can be understood by users and clients (Nature Languages)
+- Problems: Lack of clarity, Requirements Confusion (Function and Non functional Requirement tends to be mixed up).  
 
 ### System Requirement:
 - Implement the user requirement to technical requirement
 - Details and understand the problems (System end-users, Client Engineers, System Architects, Software Developers)
+
+![img](https://github.com/jackyhuynh/Software_Development_Handbook/blob/main/images/Product_Requirement.PNG)
+
+- Nonfunctional requirement implementation:
+
+### Problem Domain VS. Solution Domain
+- Check the scope of the project. 
+
+### Requirement Gathering/Fact Finding Techniques
+- Background Reading: about users, stake holders, enviroments, company,..
+- Interviewing: USers, Customers and Stakeholders
+- Use Cases: Models, Visual based techniques
+- Observation: of the existing system and users
+- Document Sampling: about the old system
+- Questionaires: to the users and stakeholders
+- Workshops:
+- Brain Storming:
+- Story Boarding/Prototyping:
+
+### Tabular Specification:
+
