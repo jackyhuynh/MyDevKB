@@ -33,4 +33,4 @@ Project description and requirement.
 
 ###  In Class
 - Requirement: Project management tool, gather information on technical trainning.
--  
+- 
