@@ -39,9 +39,15 @@ To get started with Git and understand version control, [please watch](https://w
 
 ## Prototyping Storyboard Tools:
 - [Prototypo](https://www.prototypo.io/).
+
 - [Origami](https://origami.design/): Design, animate, and prototype. All-in-one.
+
 - [Sketch](https://www.sketch.com): Create, prototype, collaborate, and bring your ideas to life with the design platform used by over one million people — from freelancers, to the world’s largest teams.
+
 - [axure](https://www.axure.com/)
+
 - [AdobeXD](https://www.adobe.com/products/xd.html)
-    -[How to web export (HTML & CSS) in adobe XD for free](https://www.youtube.com/watch?v=XFfSTAbvjAI)
-    -[Avocode](https://avocode.com/design-to-code): To code Web, iOS, Android or React Native based interface? Open any design with avocode, export all assets without preparations, and click on layers to turn them to code.
+    - [How to web export (HTML & CSS) in adobe XD for free](https://www.youtube.com/watch?v=XFfSTAbvjAI)
+    - [From Adobe XD Prototype to HTML, CSS & JS - Making an Animated Mega Menu](https://www.youtube.com/watch?v=4G9c5swUyOc)
+
+- [Avocode](https://avocode.com/design-to-code): To code Web, iOS, Android or React Native based interface? Open any design with avocode, export all assets without preparations, and click on layers to turn them to code.
