@@ -39,4 +39,5 @@ To get started with Git and understand version control, [please watch](https://w
 
 ## Prototyping Storyboard Tools:
 - [Prototypo](https://www.prototypo.io/).
-- 
+- [Origami](https://origami.design/): Design, animate, and prototype. All-in-one.
+- [Sketch](https://www.sketch.com): Create, prototype, collaborate, and bring your ideas to life with the design platform used by over one million people — from freelancers, to the world’s largest teams.
