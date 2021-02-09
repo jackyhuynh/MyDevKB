@@ -73,7 +73,13 @@ Understand A Computational Problem. Problem is defined by:
 - Questionaires: to the users and stakeholders
 - Workshops:
 - Brain Storming:
-- Story Boarding/Prototyping:
+- Story Boarding/Prototyping
+
+ Main point is to design a prototype that Clients (non-tech) can understand:
+ Examples:
+ - Use Cases ()
+ 
+
 
 ### Tabular Specification:
 
