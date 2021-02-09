@@ -29,7 +29,11 @@
 
 ## Git User Tools:
 
+Download Git: [Click here](https://git-scm.com/downloads).
+To get started with Git and understand version control, [please watch](https://www.youtube.com/watch?v=eulnSXkhE7I.). This video will give an overview on different commands of gitand you can get started on it. Please only cover the first 46 mins
+
 [GitHub](https://github.com/jackyhuynh):
     - [Introduction to GitHub](https://www.youtube.com/watch?v=fQLK8Ib_SKk): Click on the link to see what GitHub is, and how you can use it to store remote repositories. I'll also show you how to clone remote repositories to your local environment.
     - [Collaborating on GitHub](https://www.youtube.com/watch?v=MnUd31TvBoU): Click on the video to see step by step collaborate on GitHub (typically collaborate on a team project). Since there's only 1 of me - I'll show you my day-to-day workflow using Git / GitHub in the office within a team.
     - [GitHub Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk): Learn about Git and GitHub in this tutorial. These are important tools for all developers to understand. Git and GitHub make it easier to manage different software versions and make it easier for multiple people to work on the same software project.
+
