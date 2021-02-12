@@ -81,3 +81,7 @@ Understand A Computational Problem. Problem is defined by:
  
 ### Tabular Specification:
 
+### Project Phrases (SDLC code):
+- Pharse 1: Questionaire
+- Phrase 2: add non-functional requirement
+- Phrase 3: Actual gathering
