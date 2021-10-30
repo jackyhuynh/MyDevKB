@@ -52,7 +52,7 @@ The main drawback of the waterfall model is the difficulty of accommodating chan
 
 ### 2. Waterfall Model Problems:
 
-Mostly use for complex and large system (system is developed at several side: Plan everyting in the next 2 years 
+Mostly use for complex and large system (system is developed at several side: Plan everything in the next 2 years 
 
 ---
 
