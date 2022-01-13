@@ -11,7 +11,7 @@ _Development_Handbook
 - The logic is use a bot (or any automation process) to send a request to the monitor link to check if we receive a 200 or a 404.
 - If we received a 200, pass. If receive a 404, send email or do something to notify us
 
-## How to use form in web design
+## 3. How to use form in web design
 - Avoid input enmail, and using request to handle email forwarding
 - Using third party to filter out email (scam or bot) instead.
 - Structure:
