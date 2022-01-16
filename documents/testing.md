@@ -8,4 +8,12 @@ ISO definition (from ISO 9000-3) lists four components necessary to assure the q
 - documentation
 - data necessary for operating the software system.
 
+### The software process:
+- a structured set of activities required to develop a software system
+- Many different software process but all involve:
+```
+- Specification: define what system should do
+
+```
+
 ## Software testing life cycle (STLC):
