@@ -17,7 +17,8 @@ Software quality is:
 
 ### Software Quality (Pressman Definitions):
 Software quality is defined:
-- Conformance to explicitly stated functional and performance requirements, explicitly documented development standards, and implicit characteristics that are expected of all professionally developed software.
+- Conformance to explicitly stated functional and performance requirements,
+- explicitly documented development standards, and implicit characteristics that are expected of all professionally developed software.
 
 ## The software process:
 - a structured set of activities required to develop a software system
@@ -46,3 +47,61 @@ Requirements -> Design -> Development -> Testing -> Deployment -> Maintenance
 - Go through every step of the developer and step in to test
 - time, budget: good software tester
 - Software testing is part of software development
+
+## Software process model:
+- The water fall model
+- Aigle model
+- Process activities
+- Checking validation with customer
+```
+- Functional requirement: services/feature
+- Non-functional requirement: about the system (performance, security, scalability)
+- Non-functional requirement: physical aspect of a product.
+```
+
+## Design:
+Design a software structure that can implement:
+- Architecture design
+- Database Design
+- Interface Design
+- Component Section and Design
+
+#### Verification vs. Validation:
+- Vertification: requirments is correct
+- Validation: make sure meet all the requirments
+
+## Software Quality Assurance 
+```
+• Plan and implement systematically
+• Integrated into all the stages of the software 
+development process
+• The main objective of quality assurance is to minimize the cost of guaranteeing quality 
+by a variety of activities performed throughout the development
+```
+
+
+## Defects
+```
+• Failure: external behavior – deviation from 
+expected behavior . 
+• Fault: internal characteristics – cause for 
+failures . 
+• Error: incorrect/missing human action –
+conceptual mistakes
+```
+
+## Cause of Software Error:
+```
+The nine causes of software errors are:
+1. Faulty requirements definition
+2. Client-developer communication failures
+3. Deliberate deviations from software requirements
+4. Logical design errors
+5. Coding errors
+6. Non-compliance with documentation and coding instructions
+7. Shortcomings of the testing process
+8. User interface and procedure errors
+9. Documentation errors
+Causes of Software Errors
+
+```
