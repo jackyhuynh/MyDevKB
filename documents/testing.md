@@ -105,3 +105,16 @@ The nine causes of software errors are:
 Causes of Software Errors
 
 ```
+
+## SDLC - Buiding product
+### Testing fundamental:
+- Quality assurance
+- V & V
+- Understand about bug:
+```
+- Software Error:
+- Software Fault 
+- Software failures: Eliminated software failures. 
+```
+- Try to find problems : consuming process
+
