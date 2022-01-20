@@ -103,9 +103,24 @@ conceptual mistakes
 9. Documentation errors
 ```
 1. Faulty requirements definition
+- Usually consider the root cause of software problems 
+- Incorrect statements definitions: 'wrong' definitions
+- Incomplete definitions: unclear or implied requirements
+- Missing requirements
+- Inclusion of uneeded requirements (impact budget, development time)
 2. Client-developer communication failures
+- Misunderstanding of instruction, written changes, oral changes in
+requirements documnets (written/ graphical instructions)
 3. Deliberate deviations from software requirements
+- Developer reuses previous / similar work to save time -> Often reused code needs modification which it may contain 
+unneeded / unusable extraneous code
+- overtly omit functionality due to time / budget pressures
+- developer  inserting unapproved ‘enhancements’ (perfective coding;
+a slick new sort / search....); may also ignore some seemingly minor features, which sometimes 
+are quite major
 4. Logical design errors
+- Wrong formulas; Wrong Decision Logic Tables; Incorrect descriptions in text
+- Procedures specified by systems analyst not accurately reflecting the real business process
 5. Coding errors
 6. Non-compliance with documentation and coding instructions
 7. Shortcomings of the testing process
