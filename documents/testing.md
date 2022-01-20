@@ -92,7 +92,6 @@ conceptual mistakes
 
 ## Cause of Software Error:
 ```
-The nine causes of software errors are:
 1. Faulty requirements definition
 2. Client-developer communication failures
 3. Deliberate deviations from software requirements
@@ -102,6 +101,13 @@ The nine causes of software errors are:
 7. Shortcomings of the testing process
 8. User interface and procedure errors
 9. Documentation errors
-Causes of Software Errors
-
 ```
+1. Faulty requirements definition
+2. Client-developer communication failures
+3. Deliberate deviations from software requirements
+4. Logical design errors
+5. Coding errors
+6. Non-compliance with documentation and coding instructions
+7. Shortcomings of the testing process
+8. User interface and procedure errors
+9. Documentation errors
