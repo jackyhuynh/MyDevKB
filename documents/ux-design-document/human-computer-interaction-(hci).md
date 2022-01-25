@@ -25,9 +25,11 @@
 -	Put yourself on user experience
 -	Understanding people, long term and short term memory
 
-## Affordances/Signifiers and Direct Manipulation and immersive enviroments:
-### Mappings
-#### Natural Mapping
+<hr>
+
+## Affordances/Signifiers 
+
+### Mappings (Natural Mapping)
 - Mapping is a technical term
 - Borrowed from mathematics meaning the realtionship between the elements of two sets of things
 - The real function of natural mapping is to reduce the need for any information from a user's memory to perform a task.
@@ -36,7 +38,8 @@
 # The top picture show a designer perspective (ascending and descending): What is ascending? What is descending?
 # The bottom picture show a normal human perspective.
 ```
-- <img src="images/natural-mapping.jpg">
+<img src="images/natural-mapping.jpg">
+Retrieved from (1)
 
 ### Affordances
 - An affordance is any action that we can carry out on/with an object/environment
@@ -44,6 +47,7 @@
 the context of  design.
 
 <img src="images/affordances-examples.jpg">
+Retrieved from (1)
 
 ### Signifiers
 - Signal things
@@ -58,6 +62,106 @@ the context of  design.
 - SEMANTIC CONSTRAINTS
 - LOGICAL CONSTRAINTS
 ```
+<img src="images/constraints.jpg">
+Retrieved from (1)
 
 ### Cultural Conventions
 
+<hr>
+
+## Direct Manipulation and immersive enviroments
+### Good user interfaces
+- Mastery of the interface
+- Competence in performing tasks
+- Ease in learning the system originally and in assimilating advanced
+- Confidance in the capacity to retain mastery over time
+- Enjoyment in using the system
+- Eagerness to show the system off to novices
+- Desire to explore more powerful aspects of the system
+
+### Direct manipulation's principles
+- Objects and actions of interest need continuous representation
+- Representations should be meaningful visual metaphors
+- Physical actions are used  over complex command syntax
+- Action should be: rapid and incremental, reversible, immediately visible in term of effect
+
+### Attributes of direct manipulation
+- Quick to learn, but tend to require demonstration
+- Expert can use easily: Error messageas are rarely needed. Knowledgable usrs tend to find it easier to remember tasks and concepts
+
+### Users of Direct Manipulation
+- Get immediate feedback
+- Easy to change direction/course
+- Less anxiety due to comprehensible interface – if well designed
+- Less anxiety due to higher focus on reversible actions
+- More confidence due to being initiators of action
+- Greater sense of control and prediction of interface response
+
+### Problems with direct manipulation
+- Spatial/visual representations too spread out
+- Poor mapping of signifiers/controls
+- High level schema can be confusing
+- Design may force information "off of screen"
+- Users must LEARN the interface
+- Poor visual metaphor -> poor mental models
+- Can be slower than keyboard use
+
+### Translation Distance
+<img src="images/translation-distance.jpg">
+Retrieved from (1)
+
+### Ease of Tablet
+<img src="images/tablets.jpg">
+Retrieved from (1)
+
+### 2D vs. 3D interfaces
+- Pure 3D have strong use cases: Medical, Product design, Scientific visualization
+- 2D can be preferable for simpler interactions
+- Go for 3D if the added dimension improves understanding and 
+outcomes
+
+### 3D Interfaces
+- By using a medical simulation inserted into a large scale visualization (using 
+CAVE technology), physicians were able to find a solution, that would not have 
+been possible without doing the actual surgery
+
+### Effective 3D•Use occlusion, shadows, perspective, and other 3D techniques carefully
+- Minimize the number of navigation steps for users to 
+accomplish their tasks
+- Keep text readable
+- Avoid unnecessary visual clutter, distraction, contrast shifts, and 
+reflections
+- Simplify user movement
+- Prevent errors
+- Simplify object movement
+- Organize groups of items in aligned structures to allow rapid 
+visual search
+- Enable users to construct visual groups to support spatial recall
+
+### More guidelines
+- Implement dynamic queries to rapidly filter out 
+unneeded items
+- Support semantic zooming and movement
+- Enable landmarks to show themselves even at a distance
+- Allow multiple coordinated views
+- Develop novel 3D icons to represent concepts that are 
+more recognizable and memorable
+
+
+### Teleoperation and Presence
+- Two “parents”:  
+- direct manipulation in personal computers
+- process control in complex environments
+- Physical operation is remote
+- Complicating factors in the architecture of remote environments: 
+- Time delays 
+- transmission delays 
+- operation delays 
+- Incomplete feedback 
+- Feedback from multiple sources 
+- Unanticipated interferences 
+
+
+
+Reference:
+Mr. Jay John (Purdue University Assitant Professor)(1)
