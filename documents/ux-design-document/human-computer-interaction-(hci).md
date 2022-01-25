@@ -29,5 +29,5 @@
 ### Mappings:
 
 ### Affordances:
-
-
+- An affordance is any action that we can carry out on/with an object/environment
+<img src="images/affordance-examples.jpg">
