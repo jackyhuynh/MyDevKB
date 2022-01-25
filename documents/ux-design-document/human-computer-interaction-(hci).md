@@ -150,16 +150,21 @@ more recognizable and memorable
 
 ### Teleoperation and Presence
 - Two “parents”:  
+```
 - direct manipulation in personal computers
 - process control in complex environments
+```
 - Physical operation is remote
 - Complicating factors in the architecture of remote environments: 
+```
 - Time delays 
-- transmission delays 
-- operation delays 
+    - transmission delays 
+    - operation delays 
 - Incomplete feedback 
 - Feedback from multiple sources 
 - Unanticipated interferences 
+```
+
 
 
 
