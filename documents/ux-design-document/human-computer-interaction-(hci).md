@@ -26,8 +26,38 @@
 -	Understanding people, long term and short term memory
 
 ## Affordances/Signifiers and Direct Manipulation and immersive enviroments:
-### Mappings:
+### Mappings
+#### Natural Mapping
+- Mapping is a technical term
+- Borrowed from mathematics meaning the realtionship between the elements of two sets of things
+- The real function of natural mapping is to reduce the need for any information from a user's memory to perform a task.
+```
+# Truc comment
+# The top picture show a designer perspective (ascending and descending): What is ascending? What is descending?
+# The bottom picture show a normal human perspective.
+```
+- <img src="images/natural-mapping.jpg">
 
-### Affordances:
+### Affordances
 - An affordance is any action that we can carry out on/with an object/environment
-<img src="images/affordance-examples.jpg">
+- The theory of Affordances by 1977, Donald Norman appropriated  the term affordances in 
+the context of  design.
+
+<img src="images/affordances-examples.jpg">
+
+### Signifiers
+- Signal things
+- Show what actions are possible
+- Show how they're done
+
+### Constraints
+- constraints are limits to an interaction or an interface
+```
+- PHYSICAL CONSTRAINTS
+- CULTURAL CONSTRAINTS
+- SEMANTIC CONSTRAINTS
+- LOGICAL CONSTRAINTS
+```
+
+### Cultural Conventions
+
