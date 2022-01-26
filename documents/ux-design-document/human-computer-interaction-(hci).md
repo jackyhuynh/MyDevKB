@@ -200,5 +200,8 @@ Learn form people 'mistakes'
 - Loose structure that we want to follow
 - Every-interface has diffrent guildlines
 - Understands how human brain work
+- UX Framework
+- Consistency (Footer, Header, Do not call something diffrent in different pages)
+
 Reference:
 Mr. Jay John (Purdue University Assitant Professor)(1)
