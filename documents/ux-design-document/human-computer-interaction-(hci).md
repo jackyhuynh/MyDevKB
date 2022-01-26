@@ -165,6 +165,34 @@ more recognizable and memorable
 - Unanticipated interferences 
 ```
 
+## The Design Process:
+### 1. Research
+- Define Goal, User and stakeholder interviews, personas, workflow
+```
+What matters to users isn't always what we "think" matters.
+Learn form people 'mistakes'
+```
+- Personas: Craete a personas to create a user interface (target my users). Input from the users. Take information, put aside and consider
+```
+- Printing personas out and hang it on the wall to make sure we understand our audiences
+- Learn from other people mistakes
+```
+- Competitor Analysis
+```
+- Evaluating the competition for UX Designers is a little different than marketing or business competitor analysis.
+-  
+```
+### 2. Wireframe
+- Prototype: rough design (Adobe XD). Do not put to much in the look and feel.
+- May present py paper -> start with look and white so focus on functionality (sketch vs. wireframe)
+- Understand user behaviour of user
+- Do some user testing
+- Create an interactive prototype
+- FUNCTIONAL IS WHAT KEEP USER COMEBACK
+
+### 3. User Testing
+- Get the product that launch fast
+### 4. Look and Feel Design (UI)
 
 
 
