@@ -194,7 +194,11 @@ Learn form people 'mistakes'
 - Get the product that launch fast
 ### 4. Look and Feel Design (UI)
 
-
-
+# Design Guidelines:
+- Interaction-Design.org
+- Behaviour Researching
+- Loose structure that we want to follow
+- Every-interface has diffrent guildlines
+- Understands how human brain work
 Reference:
 Mr. Jay John (Purdue University Assitant Professor)(1)
