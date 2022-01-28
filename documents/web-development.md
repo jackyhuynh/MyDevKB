@@ -17,9 +17,8 @@ _Development_Handbook
 - Structure:
 * EMAIL -> FILTER -> INBOX
 
-## Secrect for blog web development:
-#### 1/9/2022: 
-- Tem@khongbiet88198788
+## 4. images:
+- Consistent is the key, design something that doesn't require
 
 ## Heroku
 - Use Heroku an gunicorn for server deployment.

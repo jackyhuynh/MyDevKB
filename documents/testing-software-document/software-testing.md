@@ -92,7 +92,6 @@ conceptual mistakes
 
 ## Cause of Software Error:
 ```
-The nine causes of software errors are:
 1. Faulty requirements definition
 2. Client-developer communication failures
 3. Deliberate deviations from software requirements
@@ -118,3 +117,55 @@ Causes of Software Errors
 ```
 - Try to find problems : consuming process
 
+```
+1. Faulty requirements definition
+- Usually consider the root cause of software problems 
+- Incorrect statements definitions: 'wrong' definitions
+- Incomplete definitions: unclear or implied requirements
+- Missing requirements
+- Inclusion of uneeded requirements (impact budget, development time)
+2. Client-developer communication failures
+- Misunderstanding of instruction, written changes, oral changes in
+requirements documnets (written/ graphical instructions)
+3. Deliberate deviations from software requirements
+- Developer reuses previous / similar work to save time -> Often reused code needs modification which it may contain 
+unneeded / unusable extraneous code
+- overtly omit functionality due to time / budget pressures
+- developer  inserting unapproved ‘enhancements’ (perfective coding;
+a slick new sort / search....); may also ignore some seemingly minor features, which sometimes 
+are quite major
+4. Logical design errors
+- Wrong formulas; Wrong Decision Logic Tables; Incorrect descriptions in text
+- Procedures specified by systems analyst not accurately reflecting the real business process
+- Erroneous Definition of Boundary Condition – a common 
+source of errors
+5. Coding errors
+- Syntax errors (grammatical errors)
+- Logic errors (program runs;  results wrong)
+- Run-time errors (crash during execution)
+6. Non-compliance with documentation and coding instructions
+- Non-compliance with published templates  (formats)
+- Non-compliance with coding standards
+7. Shortcomings of the testing process
+- Likely the part of the development process cut short most 
+frequently!
+- Incomplete test plans:
+```
+• Parts of application not tested or tested thoroughly!
+• Superficial;  boundary conditions...
+• Path testing, branch testing ... (coverage measures)
+```
+- Failure to document and report detected errors and faults: So many levels of testing....we will cover.
+- Failure to quickly correct detected faults due to unclear 
+indications that there ‘was’ a fault
+- Failure to fix the error due to time constraints: Many philosophies here depending on severity of error.
+8. User interface and procedure errors
+- To the user, the interface is the entire system.
+- If the Interface is unsatisfactory, this view will be absolutely 
+conveyed ‘up the line.’
+- The ‘learnability,’ and utility of the interface.
+9. Documentation errors
+- Errors in the documentation in the User Manuals, Operators 
+Manual, other manuals (Installation...)
+- Errors in on-line help, if available.
+- Listing of non-existing software functions
