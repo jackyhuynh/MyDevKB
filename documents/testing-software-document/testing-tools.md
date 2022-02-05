@@ -21,4 +21,57 @@
 - [selenium-ide](https://www.selenium.dev/selenium-ide/): selenium ide for automation testing
 - Capture Replay Models
 
-## Regression Testing
+
+## Example:
+### Introduction:
+### Example/Explain:
+```
+```
+### Pro/Con
+#### Advancetage:
+#### Disadvantage:
+### Applications use the testing technique 
+- <b>kind of applications:</b> web/ embedded.etc.]
+- <b>justify</b>
+
+
+## 1. Automation Testing
+
+
+## 2. Data flow Testing
+
+
+## 3. Model Based Testing
+
+
+## 4. Mutation Testing
+
+
+## 5. User Interface(UI)Testing
+### Introduction:
+- GUI Testing is the method of testing the graphic user interface (GUI) of a system
+### Example/Explain:
+```
+```
+### Pro/Con
+#### Advancetage:
+#### Disadvantage:
+### Applications use the testing technique 
+##### <b>kind of applications:</b> 
+- web clients and server (web applications, web pages, web server)
+- <b>justify</b>
+
+## 6. Integration Testing
+
+
+## 7. Grammar-based testing
+
+
+## 8. Regression Testing
+
+
+## 9. Stress Testing
+
+
+## 10. Performance Testing
+
