@@ -48,18 +48,26 @@
 
 
 ## 5. User Interface(UI)Testing
+
 ### Introduction:
 - GUI Testing is the method of testing the graphic user interface (GUI) of a system
 ### Example/Explain:
 ```
 ```
+#### Explain:
+- GUI Testing 
 ### Pro/Con
-#### Advancetage:
+#### Advantage: 
+- Testing the 
 #### Disadvantage:
 ### Applications use the testing technique 
-##### <b>kind of applications:</b> 
+##### <b>Kind of applications:</b> 
 - web clients and server (web applications, web pages, web server)
-- <b>justify</b>
+- desktop applications
+##### <b>Justify</b>
+- GUI Testing is testing on interaction between users and an application with GUI. Therefore, the
+task will focus on making sure if the button, the link is working and the color frame of application 
+is sutable for the purpose of the applications.
 
 ## 6. Integration Testing
 
