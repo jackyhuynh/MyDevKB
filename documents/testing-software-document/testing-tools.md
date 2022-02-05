@@ -34,7 +34,7 @@
 #### Advantage:
 #### Disadvantage:
 ### Applications use the testing technique 
-#### <b>kind of applications:</b> web/ embedded.etc.]
+#### <b>kind of applications:</b>
 #### <b>justify:</b>
 ### Reference:
 
@@ -43,25 +43,30 @@
 
 
 ## 1. Automation Testing:
-- Using a set of command 
-## Example:
+- Using a set of command that enable the system to continous test the target system with the ability to record the result
+
 ### Introduction:
-- GUI Tets
+
 ### Example/Explain:
 #### Automate UI testing with PyAutoGUI in Python:
-- Using the PyAutoGUI
+- In the GUI Tets (section number 6) I demonstrate the automated testing using PyAutoGUI package
+- I also using [Selenium](https://selenium-python.readthedocs.io/), and [Beautiful Soup 4](https://beautiful-soup-4.readthedocs.io/en/latest/) to perform autonomous task
 ```
 ```
 ### Pro/Con
 #### Advantage:
+
+- 
 #### Disadvantage:
 ### Applications use the testing technique 
-#### <b>kind of applications:</b> web/ embedded.etc.] 
-- automated testing can be use for any thing on embeded system, web app, desktop app 
-- any on-going development application 
-- intergration testing (test as we go)
-- can also test on stable version just to make sure no unexpected incident is happen
+#### <b>kind of applications:</b>
+- Automated testing can be performed on any system: embeded system, web app, desktop app 
+- On any on-going development application 
+- On intergration testing step(test as we go)
+- Can also test on stable version just to make sure no unexpected incident is happen
 #### <b>justify:</b>
+Since automated testing is not costly (designed one and reuse everytime). It can be use at every development miles stone 
+to make sure the overall development is working good.
 ### Reference:
 
 ## 2. Data flow Testing
@@ -130,11 +135,12 @@ bad website design can lost their customer.
 #### Advantage: 
 - Testing the functionality of the GUI (button, hyperlink)
 #### Disadvantage:
+- can be costly due to UX test need to perform byb human not machine
 - can't test the non-functionality (if website attract user, ...)
 - Not have a clearly framework to implement User Experience Testing (UX)
 ### Applications use the testing technique:
 #### <b>Kind of applications:</b> 
-- web clients and server (web applications, web pages, web server)
+- web clients and/or server (web applications, web pages, web server)
 - desktop applications
 #### <b>Justify</b>
 - GUI Testing is testing on interaction between users and an application with GUI. Therefore, the
