@@ -4,21 +4,6 @@
 - penetration testing
 - cybersecurity methods
 
-### Introduction:
-
-### Example/Explain:
-#### Example
-```
-```
-
-### Pro/Con
-#### Advantage:
-#### Disadvantage:
-### Applications:
-#### <b>kind of applications:</b>
-#### <b>justify:</b>
-### Reference:
-
 <hr>
 
 ## 1. Automation Testing:
@@ -506,14 +491,56 @@ better results. (10)
 <hr>
 
 ## 8. Regression Testing
+### Introduction:
+
+### Example/Explain:
+#### Example
+```
+```
+
+### Pro/Con
+#### Advantage:
+#### Disadvantage:
+### Applications:
+#### <b>kind of applications:</b>
+#### <b>justify:</b>
+### Reference:
 
 <hr>
 
 ## 9. Stress Testing
+### Introduction:
+
+### Example/Explain:
+#### Example
+```
+```
+
+### Pro/Con
+#### Advantage:
+#### Disadvantage:
+### Applications:
+#### <b>kind of applications:</b>
+#### <b>justify:</b>
+### Reference:
 
 <hr>
 
 ## 10. Performance Testing
+### Introduction:
+
+### Example/Explain:
+#### Example
+```
+```
+
+### Pro/Con
+#### Advantage:
+#### Disadvantage:
+### Applications:
+#### <b>kind of applications:</b>
+#### <b>justify:</b>
+### Reference:
 
 <hr>
 
