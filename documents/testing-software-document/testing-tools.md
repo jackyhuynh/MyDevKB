@@ -14,7 +14,7 @@
 ### Pro/Con
 #### Advantage:
 #### Disadvantage:
-### Applications use the testing technique 
+### Applications:
 #### <b>kind of applications:</b>
 #### <b>justify:</b>
 ### Reference:
@@ -274,6 +274,7 @@ public void TestSuiteS0() {
 - Low maintenance cost
 - Different members of a team can work on different tasks concurrently
 - The MBT process can find design and specification errors quickly (6)
+
 #### Disadvantage:
 - A mindset adjustment is often required (learning curve). 
 - Take time to learn before applying (automated + model-based testing): for developers integrating testing knowledge, and for testers learning how modeling relates to testing
@@ -292,23 +293,57 @@ public void TestSuiteS0() {
 ### Reference:
 - [Model Based Testing - An Introduction to Model-Based Testing and Spec Explorer](https://docs.microsoft.com/en-us/archive/msdn-magazine/2013/december/model-based-testing-an-introduction-to-model-based-testing-and-spec-explorer) (5)
 - [Model Based Testing ](https://searchsoftwarequality.techtarget.com/definition/model-based-testing#:~:text=Advantages%20and%20disadvantages%20of%20model-based%20testing%20Advantages%20to,problems%20that%20would%20not%20be%20revealed%20up%20front.) (6)
+
 <hr>
 
 ## 4. Mutation Testing
 ### Introduction:
-- Mutation testing is a structural testing technique, which uses the structure of the code to guide the testing process. It can be described as the process of rewriting the source code in small ways in order to remove the redundancies in the source code
+- Mutation testing is a structural testing technique, which uses the structure of the code to guide the testing process. It can be described as the process of rewriting the source code in small ways to remove the redundancies in the source code
+- There are 3 types: value mutation, decision mutations, statement mutations
+- Mutation testing are widely use in unit test
 ### Example/Explain:
-#### Automate UI testing with PyAutoGUI in Python:
-- Using the PyAutoGUI
+- Example of value mutation
 ```
+# Initial Code:
+# Python
+
+mod = 1000000007
+a = 12345678
+b = 98765432
+c = (a + b) % mod
+
+# Changed Code:
+
+mod = 1007
+a = 12345678
+b = 98765432
+c = (a + b) % mod
 ```
+
 ### Pro/Con
 #### Advantage:
+- Brings a good level of error detection in the program.
+- Discovering ambiguities in the source code.
+- Delivering the most established and dependable structure for the clients
+
 #### Disadvantage:
+- Highly costly and time-consuming.
+- Not able for Black Box Testing (modification in the source code).
+- Testing requires the automation tools to test the application
+
 ### Applications use the testing technique 
 #### <b>kind of applications:</b>
+- typically used to conduct unit tests
+- can be used for web app, desktop app, embeded system, mobile app
+
 #### <b>justify:</b>
+- Mutation testing is usually used in unit test and we can use unit test for both front and back end to test the functionality of a unit (7)
+
 ### Reference:
+- [Software Testing: Mutation Testing](https://www.geeksforgeeks.org/software-testing-mutation-testing/) (7)
+
+
+
 <hr>
 
 ## 5. User Interface(UI)Testing
@@ -390,6 +425,41 @@ to regression test your UIs https://towardsdatascience.com/automate-ui-testing-w
 <hr>
 
 ## 6. Integration Testing
+
+### Introduction:
+- Integration testing is the testing of various modules of the software under development together as a group. 
+This determines whether or not they function together seamlessly as part of the system or whole. There are 2 types:
+  + Big Bang Approach
+  + Incremental Approach: which is further divided into the following: 
+   Top Down Approach, Bottom Up Approach, Sandwich Approach – Combination of Top Down and Bottom Up
+### Example/Explain:
+- Integration testing is done on groups of these modules to make sure they work together and interact properly. While unit testing is one of the earliest tests performed in a project, integration testing is usually done later in the project timeline.
+- Individual model may work well in unit test, but wont work when put together with other units. I experience this before.
+Therefore, automated integration tests greatly increase the likelihood that bugs will be found as soon as possible during development so they can be addressed immediately.
+
+### Pro/Con
+#### Advantage:
+- Successful integration of modules: Most projects are big enough that development is broken down into numerous parts or modules. Integration testing verifies that all the parts communicate well and work together to achieve the purpose of the software.
+- Data integrity: verify and validate data is not change or corruption when data move from 1 module to another
+- User-based scenarios. One of the most important reasons to conduct integration tests is to create critical user-based scenarios and make sure they play out correctly. Individual components of the software will need to communicate properly when grouped, adapting and responding to multiple possible results. (8)
+- Third-party testing. Integration testing also verifies that groups of modules or units of coding interact properly with Application Programming Interface (API) tools.
+- (8)
+#### Disadvantage:
+- Test cases need to be prepared and testing data created
+- A test environment must be set up (cost)
+- Unit testing must have been completed already (can't begin test early).
+- Greater difficulty in locating faults.
+- Potential for overlooking a component.
+- Critical, high-level components are tested last.
+- (8)
+
+### Applications:
+#### <b>kind of applications:</b>
+- web app, desktop app, embeded system, mobile app
+#### <b>justify:</b>
+- the intergration between a database, API, procedures, back end and front on most system must be test to ensure they work together without fault. 
+### Reference:
+- [What is Integration Testing](https://www.codecademy.com/resources/blog/what-is-integration-testing/) (8)
 
 <hr>
 
