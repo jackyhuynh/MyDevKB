@@ -492,30 +492,82 @@ better results. (10)
 
 ## 8. Regression Testing
 ### Introduction:
-
+- Regression testing is a software testing method that is re-run to ensure that a software update does not affect the product's current functioning.
+- Regression Testing run the previous test case on the existing application
+- There are 3 types of regression testing:
+  - Retest all
+  - Regression Test
+  - Prioritization of Test Cases
 ### Example/Explain:
-#### Example
+#### Personal experience:
+- Testing the functionality of the whole application after each update is necessary. Sometimes, I experience
+apply a patch to software or update dependency then my apps don't work properly. Then, I have to roll back to the
+previous version to make the app work (reverse).
+- My method of regression is storing the script of each test suite and executing them in order. Regression testing is extremely important and should be treated with high priority.
+#### test — Regression tests package for Python
+- The test package contains all regression tests for Python as well as the modules test.support and test.regrtest. test.support is used to enhance your tests while test.regrtest drives the testing suite.
+- basic boilerplate is often used:
 ```
+import unittest
+from test import support
+
+class MyTestCase1(unittest.TestCase):
+
+    # Only use setUp() and tearDown() if necessary
+
+    def setUp(self):
+        ... code to execute in preparation for tests ...
+
+    def tearDown(self):
+        ... code to execute to clean up after tests ...
+
+    def test_feature_one(self):
+        # Test feature one.
+        ... testing code ...
+
+    def test_feature_two(self):
+        # Test feature two.
+        ... testing code ...
+
+    ... more test methods ...
+
+class MyTestCase2(unittest.TestCase):
+    ... same structure as MyTestCase1 ...
+
+... more test classes ...
+
+if __name__ == '__main__':
+    unittest.main()
 ```
 
 ### Pro/Con
 #### Advantage:
+- Make sure the application runs smooth and function right after each update
+- when a new feature is added to the software application and for defect fixing as well as performance issue fixing
+- Regression is necessary to locate issues that have arisen as a result of a code modification
+- Ensure that the modification hasn't impacted anything that was previously functioning.
 #### Disadvantage:
+- Test case can be time-consuming & cost consuming since we have to test the whole system again at every update
+- Minimize test suite while achieving maximize test coverage can be a big problems
+
 ### Applications:
 #### <b>kind of applications:</b>
+- Any applications (web, desktop, embedded, mobile)
 #### <b>justify:</b>
+- It is always good to test the functionality of any applications after an update. I experience this.
 ### Reference:
+[What is Regression Testing?](https://www.guru99.com/regression-testing.html) (11)
+[test — Regression tests package for Python](https://docs.python.org/3/library/test.html#:~:text=The%20test%20package%20can%20be%20run%20as%20a,running%20all%20regression%20tests%20in%20the%20test%20package.)
+
 
 <hr>
 
 ## 9. Stress Testing
 ### Introduction:
-
 ### Example/Explain:
 #### Example
 ```
 ```
-
 ### Pro/Con
 #### Advantage:
 #### Disadvantage:
@@ -528,12 +580,10 @@ better results. (10)
 
 ## 10. Performance Testing
 ### Introduction:
-
 ### Example/Explain:
 #### Example
 ```
 ```
-
 ### Pro/Con
 #### Advantage:
 #### Disadvantage:
