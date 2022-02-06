@@ -125,28 +125,94 @@ to make sure the overall development is working well.
 ## 2. Data flow Testing
 
 ### Introduction:
-- Data Flow testing follow the flow of the application and focus on the points at which variables receive values and the points at which these values are used.
+- Data Flow testing follows the flow of the application ()control flow graph and focuses on the points at which variables receive values and the points at which these values are used.
+
 ### Example/Explain:
-
-
-#### Automate UI testing with PyAutoGUI in Python:
-- Using the PyAutoGUI
+- Using Tkinter package (for Local drawing), and pycfg.py (automate CFG task). 
+CFG helps us find independent paths (Cyclomatic Complexity), which leads to the number of test cases required to test the program
+- The script simply a while loop
+- whiletest.py content
 ```
+# whiletest.py
+a= 10
+while(a <= 0):
+    if a == 5:
+        print(a)
+    a += 1
+print("exited")
 ```
+- put the 2 files in the same folder or we can navigate them 
+```
+python path_to/pycfg.py path_to/whiletest.py -d
+```
+- run this script to test the 'whiletest.py' control flow
+```
+from pycfg.pycfg import PyCFG, CFGNode, slurp
+import argparse
+import tkinter as tk
+from PIL import ImageTk, Image
+
+if __name__ == '__main__':
+   parser = argparse.ArgumentParser()
+    
+    # replace 'pythonfile' with 'whiletest.py'
+   parser.add_argument('pythonfile', help ='The python file to be analyzed')
+   args = parser.parse_args()
+   arcs = []
+
+   cfg = PyCFG()
+   cfg.gen_cfg(slurp(args.pythonfile).strip())
+   g = CFGNode.to_graph(arcs)
+   g.draw(args.pythonfile + '.png', prog ='dot')
+
+   # Draw using tkinter.
+   root = tk.Tk()
+   root.title("Control Flow Graph")
+   img1 = Image.open(str(args.pythonfile) + ".png") # PIL solution
+   img1 = img1.resize((800, 600), Image.ANTIALIAS)
+   img = ImageTk.PhotoImage(img1)
+   
+   background ="gray"
+
+   panel = tk.Label(root, height = 600, image = img)
+   panel.pack(side = "top", fill ="both", expand = "yes")
+   nodes = g.number_of_nodes()     # no. of nodes.
+   edges = g.number_of_edges()     # no. of Edges.
+   complexity = edges - nodes + 2     # Cyclomatic complexity
+
+   frame = tk.Frame(root, bg = background)
+   frame.pack(side ="bottom", fill ="both", expand = "yes")
+      
+   tk.Label(frame, text ="Nodes\t\t"+str(nodes), bg = background).pack()
+   tk.Label(frame, text ="Edges\t\t"+str(edges), bg = background).pack()
+   tk.Label(frame, text ="Cyclo Complexity\t"+
+         str(complexity), bg = background).pack()
+
+   root.mainloop()
+
+```
+- output will be generated using tinker in the picture format
+- output: 
+<img src='images/control-flow-testing.jpg'>
 ### Pro/Con
 #### Advantage:
-Data Flow testing helps us to pinpoint any of the following issues:
+According to (4), Data Flow testing helps us to pinpoint any of the following issues:
 - A variable that is declared but never used within the program.
 - A variable that is used but never declared.
 - A variable that is defined multiple times before it is used.
 - Deallocating a variable before it is used.
 
 #### Disadvantage:
+- Time consuming and costly process
+- Requires knowledge of programming languages
+
 ### Applications use the testing technique 
 #### <b>kind of applications:</b>
+- Backend, logic application (command line, script), embedded
 #### <b>justify:</b>
+- Since the testing method focus on the logic of the application. I believe the test is used for more backend applications than front-end
 ### Reference:
-- Data Flow Testing, retreved from [https://www.tutorialspoint.com/software_testing_dictionary/data_flow_testing.htm](https://www.tutorialspoint.com/software_testing_dictionary/data_flow_testing.htm)
+- Data Flow Testing, retrieved from [https://www.geeksforgeeks.org/data-flow-testing/](https://www.geeksforgeeks.org/data-flow-testing/) (4)
 
 <hr>
 
