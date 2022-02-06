@@ -21,6 +21,8 @@
 #### <b>justify:</b>
 ### Reference:
 
+<hr>
+
 ## 1. Automation Testing:
 - Using a set of commands that enable the system to continuous test the target system with the ability to record the result
 
@@ -99,12 +101,13 @@ if __name__ == '__main__':
 - Repeatable: test the software under repeated execution of the same operations
 - Cost reduction: more tests with less human resources
 - reusable: test design one and run at every development step
+
 #### Disadvantage:
 - Proficiency is required to write the automation test scripts.
 - Debugging the test script is a major issue.
 - Test maintenance is costly in the case of playback methods (in the situation when we change the graphic user interface)
 
-### Applications use the testing technique 
+### Applications use the testing technique: 
 #### <b>kind of applications:</b>
 - Automated testing can be performed on any system: embedded system, web app, desktop app 
 - On any ongoing development application 
@@ -115,19 +118,39 @@ Since automated testing is not costly (designed one and reuse every time). It ca
 to make sure the overall development is working well.
 ### Reference:
 - [Build A Selenium Python Test Suite From Scratch Using Unittest](https://www.techbeamers.com/selenium-python-test-suite-unittest/#:~:text=Selenium%20Python%20Unittest%20Framework%20Test%20Loader%20%E2%80%93%20It%E2%80%99s,TestSuite%20object%20that%20carries%20those%20cases%20and%20suites.) (2)
-- [Beautiful Soup python](https://beautiful-soup-4.readthedocs.io/en/latest/)
+- [Beautiful Soup python](https://beautiful-soup-4.readthedocs.io/en/latest/) (3)
+
+<hr>
 
 ## 2. Data flow Testing
 
+### Introduction:
+- Data Flow testing follow the flow of the application and focus on the points at which variables receive values and the points at which these values are used.
+### Example/Explain:
+#### Automate UI testing with PyAutoGUI in Python:
+- Using the PyAutoGUI
+```
+```
+### Pro/Con
+#### Advantage:
+#### Disadvantage:
+### Applications use the testing technique 
+#### <b>kind of applications:</b>
+#### <b>justify:</b>
+### Reference:
+- Data Flow Testing, retreved from [https://www.tutorialspoint.com/software_testing_dictionary/data_flow_testing.htm](https://www.tutorialspoint.com/software_testing_dictionary/data_flow_testing.htm)
+
+<hr>
 
 ## 3. Model-Based Testing
 
+<hr>
 
 ## 4. Mutation Testing
 
+<hr>
 
 ## 5. User Interface(UI)Testing
-
 ### Introduction:
 - GUI Testing is the method of testing the graphic user interface (GUI) of a system 
 are meet the system's requirements (functional and non-functional).
@@ -181,6 +204,7 @@ We can write more code to test (button, link, functionality...) depending on our
 - GUI Testing is very important. A good user interface can help a website make more clients while 
 bad website design can lose their customer.
 - Example: Returning a hp product on hp.com is too hard so I will never come and purchase their product.
+
 ### Pro/Con
 #### Advantage: 
 - Testing the functionality of the GUI (button, hyperlink)
@@ -188,6 +212,7 @@ bad website design can lose their customer.
 - can be costly due to User Experience (UX) tests reply on humans
 - can't test the non-functionality (if website attracts user, ...)
 - Not have a clear framework to implement User Experience Testing (UX)
+
 ### Applications use the testing technique:
 #### <b>Kind of applications:</b> 
 - web clients and/or server (web applications, web pages, webserver)
@@ -196,22 +221,30 @@ bad website design can lose their customer.
 - GUI Testing is testing on the interaction between users and an application with GUI. Therefore, the
 the task will focus on making sure if the button, the link is working and the color frame of the application 
 is suitable for the applications.
+
 ### References
 - Costas Andreous (2019) Automate UI Testing with PyAutoGUI in Python: A quick and easy way 
 to regression test your UIs https://towardsdatascience.com/automate-ui-testing-with-pyautogui-in-python-4a3762121973 (1)
 
+<hr>
+
 ## 6. Integration Testing
 
+<hr>
 
 ## 7. Grammar-based testing
 
+<hr>
 
 ## 8. Regression Testing
 
+<hr>
 
 ## 9. Stress Testing
 
+<hr>
 
 ## 10. Performance Testing
 
+<hr>
 
