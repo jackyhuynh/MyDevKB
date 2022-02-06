@@ -342,8 +342,6 @@ c = (a + b) % mod
 ### Reference:
 - [Software Testing: Mutation Testing](https://www.geeksforgeeks.org/software-testing-mutation-testing/) (7)
 
-
-
 <hr>
 
 ## 5. User Interface(UI)Testing
@@ -464,6 +462,46 @@ Therefore, automated integration tests greatly increase the likelihood that bugs
 <hr>
 
 ## 7. Grammar-based testing
+### Introduction:
+- Grammar testing is discussed in the context of grammar engineering (i.e., software engineering for grammar). 
+Grammar recovery is concerned with the derivation of a language's grammar from some available resources such as a semi-formal language reference.
+- Several programs (like parsers, interpreters, and compilers) that work on structured input can be tested using grammar. 
+These applications process their input in different stages like tokenizing, building parse tree, converting to AST and 
+evaluating the AST. The simplest way to provide specify the input is in form of context-free grammar (10).
+- A context-free grammar or CFG is a set of recursive rewriting rules (also called productions) used to generate 
+patterns of strings. 
+- 
+### Example/Explain:
+#### Example
+Consider the following CFG for arithmetic expressions.
+```
+<expression>  ::=   <term> <addOps> <expression> | <term>
+<term>        ::=   <factor> <multOps> <term> | <factor>
+<addOps>      ::=   + | -
+<multOps>     ::=   * | /
+<factor>      ::=   "(" <expression> ")" | <constant>
+<constant>    ::=   0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+```
+(10)
+
+### Pro/Con
+#### Advantage:
+- automate the testing process
+- Makes it possible to express and validate structured textual data
+#### Disadvantage:
+- A mindset adjustment is often required (learning curve). 
+- Take time to learn before applying
+  (10)
+### Applications:
+#### <b>kind of applications:</b>
+- parsers, interpreters, and compilers
+- profilers, slicing tools, pretty printers, (re-) documentation tools, language reference manuals, browsers and IDEs, software analysis tools...
+#### <b>justify:</b>
+- For such applications, due to a large number of control flow paths in the early processing, random 
+fuzzing does not yield good test cases. Generating tests that exploit the structured nature of the input can provide 
+better results. (10)
+### Reference:
+[GramTest: a tool for grammar-based test case generation](https://srcclr.github.io/test-lean/chapters/13-grammar.html) (10)
 
 <hr>
 
