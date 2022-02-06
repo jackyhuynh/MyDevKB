@@ -127,12 +127,20 @@ to make sure the overall development is working well.
 ### Introduction:
 - Data Flow testing follow the flow of the application and focus on the points at which variables receive values and the points at which these values are used.
 ### Example/Explain:
+
+
 #### Automate UI testing with PyAutoGUI in Python:
 - Using the PyAutoGUI
 ```
 ```
 ### Pro/Con
 #### Advantage:
+Data Flow testing helps us to pinpoint any of the following issues:
+- A variable that is declared but never used within the program.
+- A variable that is used but never declared.
+- A variable that is defined multiple times before it is used.
+- Deallocating a variable before it is used.
+
 #### Disadvantage:
 ### Applications use the testing technique 
 #### <b>kind of applications:</b>
