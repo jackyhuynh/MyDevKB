@@ -4,15 +4,13 @@
 - penetration testing
 - cybersecurity methods
 
-
-## Example:
 ### Introduction:
-- GUI Tets
+
 ### Example/Explain:
-#### Automate UI testing with PyAutoGUI in Python:
-- Using the PyAutoGUI
+#### Example
 ```
 ```
+
 ### Pro/Con
 #### Advantage:
 #### Disadvantage:
@@ -201,10 +199,13 @@ According to (4), Data Flow testing helps us to pinpoint any of the following is
 - A variable that is used but never declared.
 - A variable that is defined multiple times before it is used.
 - Deallocating a variable before it is used.
+- User can clearly see what need to test -> easy to test
+- Prevent crashing
 
 #### Disadvantage:
 - Time consuming and costly process
-- Requires knowledge of programming languages
+- Requires knowledge of programming languages to draw flow-cart software
+- Drawing chart manually can create human-mistake
 
 ### Applications use the testing technique 
 #### <b>kind of applications:</b>
@@ -217,11 +218,97 @@ According to (4), Data Flow testing helps us to pinpoint any of the following is
 <hr>
 
 ## 3. Model-Based Testing
+### Introduction:
+- Model-based testing is about automatically generating test procedures from models. (5)
+- Model-based testing (MBT) can be applied to the software internal development process, and it can also be automated and built-in. (5)
+- Model-based testing is a powerful technique that adds a systematic methodology to traditional techniques. 
+### Example/Explain:
+#### Automate UI testing with PyAutoGUI in Python:
+- A case study from Microsoft "Chat System" (5), a system requirement for model-based testing
+```
+R1. Users must receive a response for a logon request.
+R2. Users must receive a response for a logoff request.
+R3. Users must receive a response for a list request.
+R4. List response must contain the list of logged-on users.
+R5. All logged-on users must receive a broadcast message.
+R6. Messages from one sender must be received in order.
+```
+- These are the default action declarations, whereas the “event” keyword is used to declare an event action. code below show what this looks like in the chat system.
+```
+// Cord code
+config ChatConfig
+{
+  action void LogonRequest(int user);
+  action event void LogonResponse(int user);
+  action void LogoffRequest(int user);
+  action event void LogoffResponse(int user);
+  action void ListRequest(int user);
+  action event void ListResponse(int user, Set<int> userList);
+  action void BroadcastRequest(int senderUser, string message);
+  action void BroadcastAck(int receiverUser, 
+    int senderUser, string message);
+  // ...
+}
+```
+- Automated generate code to test each model
+- The test-code generator is highly customizable and can be configured to generate test cases that target different test frameworks, such as NUnit.
+```
+# test code generate by computer for model-base testing
+#region Test Starting in S0
+[Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
+public void TestSuiteS0() {
+  this.Manager.BeginTest("TestSuiteS0");
+  this.Manager.Comment("reaching state \'S0\'");
+  this.Manager.Comment("executing step \'call LogonRequest(2)\'");
+  Chat.Adapter.ChatAdapter.LogonRequest(2);
+  this.Manager.Comment("reaching state \'S1\'");
+  this.Manager.Comment("checking step \'return LogonRequest\'");
+  this.Manager.Comment("reaching state \'S4\'");
+  // ...
+    }
+```
+### Pro/Con:
+#### Advantage:
+- After the testable model is completed, model-based tests can cover an incredibly large variety of scenarios with relatively little effort.
+- Since the model has to be formalized to enable auto-generate test, this enables early detection of requirement inconsistencies and helps teams to be in accord in terms of expected behavior
+- Low maintenance cost
+- Different members of a team can work on different tasks concurrently
+- The MBT process can find design and specification errors quickly (6)
+#### Disadvantage:
+- A mindset adjustment is often required (learning curve). 
+- Take time to learn before applying (automated + model-based testing): for developers integrating testing knowledge, and for testers learning how modeling relates to testing
+- Took more time to develop the first test case
+- If there is a large random test, MBT requires a great deal of infrastructure (many machines), a great deal of time (measured in hours to days for high coverage) or both (6)
 
+### Applications:
+#### <b>kind of applications:</b>
+- Models can be used to represent the desired behavior of a system under test (SUT) or to represent testing strategies and a test environment. 
+- Model base can also use for embedded software systems, back-end applications
+
+#### <b>justify:</b>
+- Model-based testing design to test the model and system under test. 
+- Since the testing method focus on the logic of the application. I believe the test is used for more backend applications than front-end
+
+### Reference:
+- [Model Based Testing - An Introduction to Model-Based Testing and Spec Explorer](https://docs.microsoft.com/en-us/archive/msdn-magazine/2013/december/model-based-testing-an-introduction-to-model-based-testing-and-spec-explorer) (5)
+- [Model Based Testing ](https://searchsoftwarequality.techtarget.com/definition/model-based-testing#:~:text=Advantages%20and%20disadvantages%20of%20model-based%20testing%20Advantages%20to,problems%20that%20would%20not%20be%20revealed%20up%20front.) (6)
 <hr>
 
 ## 4. Mutation Testing
-
+### Introduction:
+- GUI Tets
+### Example/Explain:
+#### Automate UI testing with PyAutoGUI in Python:
+- Using the PyAutoGUI
+```
+```
+### Pro/Con
+#### Advantage:
+#### Disadvantage:
+### Applications use the testing technique 
+#### <b>kind of applications:</b>
+#### <b>justify:</b>
+### Reference:
 <hr>
 
 ## 5. User Interface(UI)Testing
