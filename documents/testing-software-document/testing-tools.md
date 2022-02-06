@@ -103,7 +103,7 @@ if __name__ == '__main__':
 #### Disadvantage:
 - Proficiency is required to write the automation test scripts.
 - Debugging the test script is a major issue.
-- Test maintenance is costly in the case of playback methods (in the situation when we change the graphic user interface)
+- Test maintenance is costly in the case of playback methods (in the situation when we change the graphic user interface) (3)
 
 ### Applications use the testing technique: 
 #### <b>kind of applications:</b>
@@ -205,7 +205,7 @@ According to (4), Data Flow testing helps us to pinpoint any of the following is
 #### Disadvantage:
 - Time consuming and costly process
 - Requires knowledge of programming languages to draw flow-cart software
-- Drawing chart manually can create human-mistake
+- Drawing chart manually can create human-mistake -> confusing
 
 ### Applications use the testing technique 
 #### <b>kind of applications:</b>
@@ -296,7 +296,7 @@ public void TestSuiteS0() {
 
 ## 4. Mutation Testing
 ### Introduction:
-- GUI Tets
+- Mutation testing is a structural testing technique, which uses the structure of the code to guide the testing process. It can be described as the process of rewriting the source code in small ways in order to remove the redundancies in the source code
 ### Example/Explain:
 #### Automate UI testing with PyAutoGUI in Python:
 - Using the PyAutoGUI
