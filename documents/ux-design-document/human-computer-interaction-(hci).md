@@ -217,6 +217,7 @@ Learn form people 'mistakes'
 - Flexibility and efficiency of use
 - Aesthetic and minimalist design
 - Help users recognize, diagnose, and recover from errors
+- Do not have email address so that 
 
 Reference:
 Mr. Jay John (Purdue University Assitant Professor)(1)
