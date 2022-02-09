@@ -1,6 +1,9 @@
 # Human Computer Interaction (HCI)
 
-## User Experience:
+## User Experience Resources:
+- [Form Design](https://www.ventureharbour.com/form-design-best-practices/)
+- [20 UX design examples to get inspired](https://www.justinmind.com/ux-design/examples)
+- [10 Behaviour for UX Design](https://uxdesign.cc/10-essential-cognitive-behavior-patterns-for-ux-design-7f0cc2e00d31)
 
 ## Group Project:
 -	Get approval from the instructor (web sites or app prototypes only)
@@ -209,6 +212,11 @@ Learn form people 'mistakes'
 - Match the system in the real world: speak the user languages, natural mapping
 - Making it clear that "emergency exit", cancel button
 - Consistency and Standard
+- recognition rather than recall
+- Asthetic and minimalist design
+- Flexibility and efficiency of use
+- Aesthetic and minimalist design
+- Help users recognize, diagnose, and recover from errors
 
 Reference:
 Mr. Jay John (Purdue University Assitant Professor)(1)
