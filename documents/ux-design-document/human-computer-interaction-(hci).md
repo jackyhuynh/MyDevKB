@@ -192,6 +192,7 @@ Learn form people 'mistakes'
 
 ### 3. User Testing
 - Get the product that launch fast
+
 ### 4. Look and Feel Design (UI)
 
 # Design Guidelines:
@@ -202,6 +203,12 @@ Learn form people 'mistakes'
 - Understands how human brain work
 - UX Framework
 - Consistency (Footer, Header, Do not call something diffrent in different pages)
+
+# 
+- Visibility of system status
+- Match the system in the real world: speak the user languages, natural mapping
+- Making it clear that "emergency exit", cancel button
+- Consistency and Standard
 
 Reference:
 Mr. Jay John (Purdue University Assitant Professor)(1)
