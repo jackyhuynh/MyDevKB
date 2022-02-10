@@ -2,10 +2,9 @@
 
 ## Abstract:
 
-- The paper is basic introduction to software testing methodologies. Majority of the code is
+- The paper is basic introduction to different software testing methodologies. Majority of the code is
 is from other researcher (some was written by myself)
 - Paper is written using PyCharm in markdown style and render by [md2pdf](https://md2pdf.netlify.app/)
-
 
 <hr>
 
@@ -741,11 +740,11 @@ to design prevention methods
 - Retrieved from (14)
 
 ### D. Applications:
-- It is used for all types of software, but is particularly important for critical software. Stress testing aims at estimating the robustness, availability and error handling capabilities under heavy loads to ensure that the software does not crash under crunch conditions. Retrieved from (13)
+- It is used for all types of software applications, but is particularly important for critical software. Stress testing aims at estimating the robustness, availability and error handling capabilities under heavy loads to ensure that the software does not crash under crunch conditions. Retrieved from (13)
 
 ### E. Reference:
 - [What is Stress Testing In Software Testing](https://www.tutorialspoint.com/what-is-stress-testing-in-software-testing) (13)
-- [Advantages amd Disadvantages of Software Testing](https://accelatest.com/advantages-and-disadvantages-of-software-testing/#:~:text=%20%20%20Performance%20Testing%20Type%20%20,the%20specs%20of%20the%20test%20environm%20...%20) (14)
+- [The Ultimate Guide to the Advantages and Disadvantages of Software Testing](https://accelatest.com/advantages-and-disadvantages-of-software-testing) (14)
 
 <hr>
 
@@ -759,6 +758,8 @@ a software system under various workload
   - Stress Testing
   - Soak Testing
   - Spike Testing
+- Performance testing is a non-functional testing
+- Retrieved from (18)
 
 ### B. Example/Explain:
 #### Example 1 using Locustio
@@ -801,21 +802,38 @@ class LocustUsers(HttpLocust):
 ```
 - Run the script above from bash
 ```bash
-locust -f mylocustfile.py -- host= https://www.example.com/
+locust -f mylocustfile.py -- host= https://template-blog.herokuapp.com/
 ```
-
+- If the code has no issue then we will see something like this
+```bash
+[2022-02-10 10:13:16,324]                     /INFO/locust.main: Starting web monitor at http://*:8089
+```
+- Navigate to local host http://localhost:8089, there is will be a graphic interface appear
+```diff
+- Enter the number of total user to simulate: 10000
+- Enter the Hatch Rate: 99
++ If you give the number of users to simulate as 10000 and Hatch rate as 99 then all 10000 users will be activated within 99 seconds 
+```
 #### Example 2 using datetime package:
-- There are methodds that using datatime for performance testing but I may argue that it wont be efficient as the locustio package.
+- There are methods that using datatime, timeit, cProfile for performance testing but I may argue that it wont be efficient as the locustio package.
 - May end up to manually do extra work compare to locustio
 
 ### C. Advantages/Disadvantage
 #### Advantage:
+- Verifies the speed, accuracy, and stability of the software match expectation.
+- Assists the system by authenticating the responsiveness and managing the scalability and reliability of software features.
+- Retrieved from (14)
+
 #### Disadvantage:
+- Can be a costly mistake if done haphazardly, leading to inaccurate results and conclusions.
+- Carried out on multiple devices in different locations to check whether a user faces difficulties. Hence this testing can be costly.
+- Retrieved from (14)
+
 ### D. Applications:
-#### Kind of applications:
-#### Justify:
+- Performance testing should be performed for any kind of applications since we all want to know how our application is performed. 
+We can guarantee the software applications can handle and manage the workload efficiently
 ### E. Reference:
 - [Write your first performance/load test in Python](https://medium.com/@kundan3034/write-your-first-performance-load-test-in-python-e8e2132ef775) (17)
-- 
+- [Performance Testing](https://www.tutorialspoint.com/software_testing_dictionary/performance_testing.htm) (18)
 <hr>
 
