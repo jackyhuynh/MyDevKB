@@ -25,7 +25,12 @@ The purpose is different, but I realize I can use those packages for finding spe
 - Unittest is inherited from the PyUnit, Python Unittest package has 5 components: Test loader, test case, test suite, test runner, and test report 
 - code demonstrate of using Unittest and Selenium to test if an image link is clickable
 - the script using selenium web driver and Unittest.TestCase to perform a couple of autonomous tasks: test the search box, test image link, test language setting, and test if some element is present
-- code retrieved from (2)
+- code retrieved from (2) and some from myself
+- install from bash
+```bash
+$ pip install unittest, selenium
+```
+- python script
 ```python
 import unittest
 from selenium import webdriver
@@ -126,6 +131,10 @@ while(a <= 0):
         print(a)
     a += 1
 print("exited")
+```
+- install from bash
+```bash
+$ pip install pycfg, argparse, tinkinter, PIL
 ```
 - put the 2 files in the same folder or we can navigate them 
 ```linux
@@ -290,23 +299,57 @@ public void TestSuiteS0() {
 - There are 3 types: value mutation, decision mutations, statement mutations
 - Mutation testing are widely use in unit test
 ### B. Example/Explain:
-- Example of value mutation
-```python
-# Initial Code:
-# Python
-mod = 1000000007
-a = 12345678
-b = 98765432
-c = (a + b) % mod
-
-# Changed Code:
-mod = 1007
-a = 12345678
-b = 98765432
-c = (a + b) % mod
+- Example of value mutation using the **mutmut** package of Python:
+- install from bash
+```bash
+$ pip install mutmut
 ```
+- Using a small program as an example
+```
+(base) C:\Users\truchuynh>mutmut /?
+Usage: mutmut [OPTIONS] COMMAND [ARGS]...
 
-### C. Advantages/Disadvantage from (7)
+  Mutation testing system for Python.
+
+Options:
+  -h, --help  Show this message and exit.
+
+Commands:
+  apply       Apply a mutation on disk.
+  html        Generate a HTML report of surviving mutants.
+  junitxml    Show a mutation diff with junitxml format.
+  result-ids  Print the IDs of the specified mutant classes (separated by...
+  results     Print the results.
+  run         Runs mutmut.
+  show        Show a mutation diff.
+  version     Show the version and exit.
+
+(base) C:\Users\truchuynh>
+```
+- Navigate to the source file then run
+```bash
+$ mutmut run
+```
+- This output demonstrate a small program test
+```bash
+Language     files          blank        comment        code
+---------------------------------------------------------------
+Python       10            964           1399           2046
+```
+- sample of 3 test case
+```
+1.03s call     tests/test_main.py::test_parallel_for
+0.80s call     tests/test_string.py::test_is_email
+0.41s call     tests/test_io.py::test_download_without_path
+```
+- run this to get a html report instead of a text log
+```bash
+$ mutmut html 
+```
+- Code sample retrieved from (16) and myself
+
+### C. Advantages/Disadvantage 
+Retrieved from (7)
 #### Advantage:
 - Brings a good level of error detection in the program.
 - Discovering ambiguities in the source code.
@@ -327,7 +370,7 @@ c = (a + b) % mod
 
 ### E. Reference:
 - [Software Testing: Mutation Testing](https://www.geeksforgeeks.org/software-testing-mutation-testing/) (7)
-
+- [Mutation Testing with Python](https://medium.com/analytics-vidhya/unit-testing-in-python-mutation-testing-7a70143180d8#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjE4MmU0NTBhMzVhMjA4MWZhYTFkOWFlMWQyZDc1YTBmMjNkOTFkZjgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2NDQ1MjEwMDEsImF1ZCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwNjgzNDM3MDk4MTEyMzk1ODMyMyIsImVtYWlsIjoiamFja3lodXluaDg3QGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhenAiOiIyMTYyOTYwMzU4MzQtazFrNnFlMDYwczJ0cDJhMmphbTRsamRjbXMwMHN0dGcuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJuYW1lIjoidHJ1YyBodXluaCIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQVRYQUp6YnhuOWY1VjI3cmxRSENJZUM2bUZtaHpIcXUtUzhGQmhkR0d2MT1zOTYtYyIsImdpdmVuX25hbWUiOiJ0cnVjIiwiZmFtaWx5X25hbWUiOiJodXluaCIsImlhdCI6MTY0NDUyMTMwMSwiZXhwIjoxNjQ0NTI0OTAxLCJqdGkiOiIzZmQ3YWNlYjFhMjZiMmZhMzc2ZDI5NDJkNTFmZTJhMWNmYzM0ZjgzIn0.HWBeVU74FDZqNgyG4kKZffzElQC1TiCNOUebUTCcVjqyPLjtkIx2Nf4sL1qSjeiZRdpUmAr2hKLUSIsuBNhWBOE5zJ1LB_0YzAKJSgIIz6O34iNE5P3EwnrJWBHNhSR-puF9drDG0U_v3ExfSwQWxv7EHD_uRgi0gip3kH__cRrQ0jr_3zlp90hg1ixZaAD-Jhs-ZaNyAg3W4BubDQW6NA7benn4cUK3QEDcURkFjuGWpX5diTCpSxm5bMT34hEPcg6WVO5G-7Is3r8Cptx6WVKr_A0FfHyO2Mp4IRpzpM1PQiu_hOf0jH_pzkwnalBjGrtqo5shQRBgQXKBAxUA6A) (16)
 <hr>
 
 ## 5. User Interface(UI)Testing
@@ -698,7 +741,7 @@ to design prevention methods
 - Retrieved from (14)
 
 ### D. Applications:
-It is used for all types of software, but is particularly important for critical software. Stress testing aims at estimating the robustness, availability and error handling capabilities under heavy loads to ensure that the software does not crash under crunch conditions. Retrieved from (13)
+- It is used for all types of software, but is particularly important for critical software. Stress testing aims at estimating the robustness, availability and error handling capabilities under heavy loads to ensure that the software does not crash under crunch conditions. Retrieved from (13)
 
 ### E. Reference:
 - [What is Stress Testing In Software Testing](https://www.tutorialspoint.com/what-is-stress-testing-in-software-testing) (13)
@@ -708,10 +751,63 @@ It is used for all types of software, but is particularly important for critical
 
 ## 10. Performance Testing
 ### A. Introduction:
+- Performance testing is a testing technique, performed to determine the responsiveness and stability of 
+a software system under various workload 
+- Performance testing metrics are: scalability, reliability and resource usage
+- Type:
+  - Load Testing
+  - Stress Testing
+  - Soak Testing
+  - Spike Testing
+
 ### B. Example/Explain:
-#### Example
+#### Example 1 using Locustio
+- we can perform performance testing using Python 
+- locust package of Python can perform this task.
+- locust is coding base package. Therefore, we can store as script and perform this with other testing technique
+- install from bash
+```bash
+$ pip install locustio
 ```
+- Boiler of performance testing script may look like:
+```python
+from locust import HttpLocust, TaskSet, task, between
+
+class TestCases(TaskSet):
+    def on_start(self):
+        self.payload = {"email": "john@example.com", "password":123}
+        self.login()
+
+    def on_stop(self):
+        self.logout()
+
+    def login(self):
+        self.client.post("/login", self.payload)
+
+    def logout(self):
+        self.client.post("/logout", self.payload)
+
+    @task(2)
+    def visit_count(self):
+        self.client.get("/visit")
+
+    @task(1)
+    def profile(self):
+        self.client.get("/profile")
+
+class LocustUsers(HttpLocust):
+    task_set = TestCases
+    wait_time = between(5, 9)
 ```
+- Run the script above from bash
+```bash
+locust -f mylocustfile.py -- host= https://www.example.com/
+```
+
+#### Example 2 using datetime package:
+- There are methodds that using datatime for performance testing but I may argue that it wont be efficient as the locustio package.
+- May end up to manually do extra work compare to locustio
+
 ### C. Advantages/Disadvantage
 #### Advantage:
 #### Disadvantage:
@@ -719,6 +815,7 @@ It is used for all types of software, but is particularly important for critical
 #### Kind of applications:
 #### Justify:
 ### E. Reference:
-
+- [Write your first performance/load test in Python](https://medium.com/@kundan3034/write-your-first-performance-load-test-in-python-e8e2132ef775) (17)
+- 
 <hr>
 
