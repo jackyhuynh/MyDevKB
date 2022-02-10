@@ -207,7 +207,7 @@ Learn form people 'mistakes'
 - UX Framework
 - Consistency (Footer, Header, Do not call something diffrent in different pages)
 
-# 
+# Usability Heuristic
 - Visibility of system status
 - Match the system in the real world: speak the user languages, natural mapping
 - Making it clear that "emergency exit", cancel button
