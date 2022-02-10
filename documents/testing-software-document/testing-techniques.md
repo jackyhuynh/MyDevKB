@@ -2,15 +2,14 @@
 
 ## Abstract:
 
-- The paper is basic introduction to different software testing methodologies. Majority of the code is
-is from other researcher (some was written by myself)
+- The paper is basic introduction to different software testing methodologies. Majority of the code is from other researcher (some was written by myself)
 - Paper is written using PyCharm in markdown style and render by [md2pdf](https://md2pdf.netlify.app/)
 
 <hr>
 
 ## 1. Automation Testing:
 ### A. Introduction:
-- Using a set of commands that enable the system to continuous test the target system with the ability to record the result
+- Using a set of commands that enable the system to automatic and continuous test the target system with the ability to record the result.
 
 ### B. Example/Explain:
 #### Automate UI testing with PyAutoGUI in Python:
@@ -437,18 +436,22 @@ We can write more code to test (button, link, functionality...) depending on our
 #### Manually Testing:
 - We can also manually click on buttons and links to test it manually: costly
 
-#### Explain the importance of UI Testing:
-- GUI Testing is very important. A good user interface can help a website make more clients while 
-bad website design can lose their customer.
-- Example: Returning a hp product on hp.com is too hard so I will never come and purchase their product.
-
 ### C. Advantages/Disadvantage
 #### Advantage: 
 - Testing the functionality of the GUI (button, hyperlink)
+- Make sure the front end work as expected (user input, link, video, buttons)
+- Tests the user interface from the users perspective.
+- Helps validate the compliance of various icons and elements with their design specifications.
+  #### Explain the importance of UI Testing:
+  - GUI Testing is very important. A good user interface can help a website make more clients while bad website design can lose their customer.
+  - Example: Returning a hp product on hp.com is too hard so I will never come and purchase their product.
+
 #### Disadvantage:
 - can be costly due to User Experience (UX) tests reply on humans
 - can't test the non-functionality (if website attracts user, ...)
 - Not have a clear framework to implement User Experience Testing (UX)
+- The process of testing is time consuming and may require extra software for running GUIs.
+- Since the interface of an application changes frequently, the team might have to refactor recorded test script to improve its accuracy.
 
 ### D. Applications:
 #### Kind of applications: 
@@ -469,14 +472,19 @@ to regression test your UIs https://towardsdatascience.com/automate-ui-testing-w
 
 ### A. Introduction:
 - Integration testing is the testing of various modules of the software under development together as a group. 
-This determines whether or not they function together seamlessly as part of the system or whole. There are 2 types:
-  + Big Bang Approach
-  + Incremental Approach: which is further divided into the following: 
-   Top Down Approach, Bottom Up Approach, Sandwich Approach – Combination of Top Down and Bottom Up
+This determines whether or not they function together seamlessly as part of the system or whole. 
+- There are 2 types:
+  - Big Bang Approach
+  - Incremental Approach: which is further divided into the following: 
+  	- Top Down Approach
+    - Bottom Up Approach
+    - Sandwich Approach 
+    – Combination of Top Down and Bottom Up
+    
 ### B. Example/Explain:
-- Integration testing is done on groups of these modules to make sure they work together and interact properly. While unit testing is one of the earliest tests performed in a project, integration testing is usually done later in the project timeline.
+- Integration testing is done on groups of modules to make sure they work together and interact properly. While unit testing is one of the earliest tests performed in a project, integration testing is usually done later in the project timeline.
 - Individual model may work well in unit test, but wont work when put together with other units. I experience this before.
-Therefore, automated integration tests greatly increase the likelihood that bugs will be found as soon as possible during development so they can be addressed immediately.
+- Therefore, automated integration tests greatly increase the likelihood that bugs will be found as soon as possible during development so they can be addressed immediately.
 
 ### C. Advantages/Disadvantage
 #### Advantage:
@@ -514,9 +522,8 @@ Grammar recovery is concerned with the derivation of a language's grammar from s
 - Several programs (like parsers, interpreters, and compilers) that work on structured input can be tested using grammar. 
 These applications process their input in different stages like tokenizing, building parse tree, converting to AST and 
 evaluating the AST. The simplest way to provide specify the input is in form of context-free grammar (10).
-- A context-free grammar or CFG is a set of recursive rewriting rules (also called productions) used to generate 
-patterns of strings. 
-- 
+- A context-free grammar or CFG is a set of recursive rewriting rules (also called productions) used to generate patterns of strings. 
+
 ### B. Example/Explain:
 #### Example from (10)
 - GramTest: a tool for grammar-based test case generation.
@@ -525,25 +532,25 @@ to follow all the production rules of the given BNF grammar and then generate st
 that conform to the grammar. The production rules themselves form a tree, the root of 
 the tree is the starting rule for generating all the strings in the grammar. 
 - For example, consider the following BNF grammar describing all the course codes at a university:
-```bash
-<coursecode>   ::= <acadunit> <coursenumber>
-<acadunit>     ::= <letter> <letter> <letter>
-<coursenumber> ::= <year> <semesters> <digit> <digit>
-<year>         ::= <ugrad> | <grad>
-<ugrad>        ::= 0 | 1 | 2 | 3 | 4
-<grad>         ::= 5 | 6 | 7 | 9
-<semesters>    ::= <onesemester> | <twosemesters>
-<onesemester>  ::= <frenchone> | <englishone> | <bilingual>
-<frenchone>    ::= 5 | 7
-<englishone>   ::= 1 | 3
-<bilingual>    ::= 9
-<twosemesters> ::= <frenchtwo> | <englishtwo>
-<frenchtwo>    ::= 6 | 8
-<englishtwo>   ::= 2 | 4
-<digit>        ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
-<letter>       ::= A | B | C | D | E | F | G | H | I | J | K | L | M | N |
-                   O | P | Q | R | S | T | U | V | W | X | Y | Z
-```
+  ```bash
+  <coursecode>   ::= <acadunit> <coursenumber>
+  <acadunit>     ::= <letter> <letter> <letter>
+  <coursenumber> ::= <year> <semesters> <digit> <digit>
+  <year>         ::= <ugrad> | <grad>
+  <ugrad>        ::= 0 | 1 | 2 | 3 | 4
+  <grad>         ::= 5 | 6 | 7 | 9
+  <semesters>    ::= <onesemester> | <twosemesters>
+  <onesemester>  ::= <frenchone> | <englishone> | <bilingual>
+  <frenchone>    ::= 5 | 7
+  <englishone>   ::= 1 | 3
+  <bilingual>    ::= 9
+  <twosemesters> ::= <frenchtwo> | <englishtwo>
+  <frenchtwo>    ::= 6 | 8
+  <englishtwo>   ::= 2 | 4
+  <digit>        ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+  <letter>       ::= A | B | C | D | E | F | G | H | I | J | K | L | M | N |
+                     O | P | Q | R | S | T | U | V | W | X | Y | Z
+  ```
 - Explain:
   - In this grammar the root is:
   ```bash
@@ -590,26 +597,28 @@ the tree is the starting rule for generating all the strings in the grammar.
   ```
 ### C. Advantages/Disadvantage
 #### Advantage:
-- automate the testing process
+- Automate the testing process
 - Makes it possible to express and validate structured textual data
 - Combine with auto mation testing to create automated fuzzing and testing 
 (for example: Gramtest allows you to generate test cases based on arbitrary user defined grammars)
+
 #### Disadvantage:
 - A mindset adjustment is often required (learning curve). 
 - Take time to learn before applying
-  (10)
+- Retrieved from (10)
+
 ### D. Applications:
 #### Kind of applications:
 - parsers, interpreters, and compilers
 - profilers, slicing tools, pretty printers, (re-) documentation tools, language reference manuals, browsers and IDEs, software analysis tools...
+
 #### Justify:
-- For such applications, due to a large number of control flow paths in the early processing, random 
-fuzzing does not yield good test cases. Generating tests that exploit the structured nature of the input can provide 
-better results. (10)
+- For such applications, due to a large number of control flow paths in the early processing, random fuzzing does not yield good test cases. Generating tests that exploit the structured nature of the input can provide better results. 
+- Retrieved from (10)
 
 ### E. Reference:
-[GramTest: a tool for grammar-based test case generation](https://srcclr.github.io/test-lean/chapters/13-grammar.html) (10)
-[How does grammar-based test case generation work?](https://www.veracode.com/blog/managing-appsec/how-does-grammar-based-test-case-generation-work)
+- [GramTest: a tool for grammar-based test case generation](https://srcclr.github.io/test-lean/chapters/13-grammar.html) (10)
+- [How does grammar-based test case generation work?](https://www.veracode.com/blog/managing-appsec/how-does-grammar-based-test-case-generation-work)
 
 <hr>
 
