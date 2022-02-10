@@ -689,16 +689,21 @@ to design prevention methods
 - Guarantees the system will function under regular and irregular conditions properly.
 - Retrieved from (13) and (14)
 #### Disadvantage:
+- Need to have an adequate knowledge of stress-testing to perform the task
+- Very costly due to the requirement of additional resources
+- Manually executing stress testing is a complex task
+- Retrieved from (14)
+
 ### D. Applications:
-#### Kind of applications:
-#### Justify:
+It is used for all types of software, but is particularly important for critical software. Stress testing aims at estimating the robustness, availability and error handling capabilities under heavy loads to ensure that the software does not crash under crunch conditions. Retrieved from (13)
+
 ### E. Reference:
 - [What is Stress Testing In Software Testing](https://www.tutorialspoint.com/what-is-stress-testing-in-software-testing) (13)
 - [Advantages amd Disadvantages of Software Testing](https://accelatest.com/advantages-and-disadvantages-of-software-testing/#:~:text=%20%20%20Performance%20Testing%20Type%20%20,the%20specs%20of%20the%20test%20environm%20...%20) (14)
 
 <hr>
 
-## 10. Performance Testing
+## 10. Performance Testing:
 ### A. Introduction:
 ### B. Example/Explain:
 #### Example
