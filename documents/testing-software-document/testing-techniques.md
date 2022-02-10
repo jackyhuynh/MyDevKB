@@ -5,8 +5,8 @@
 - The paper is basic introduction to software testing methodologies. Majority of the code is
 is from other researcher (some was written by myself)
 - Paper is written using PyCharm in markdown style and render by [md2pdf](https://md2pdf.netlify.app/)
-- Some picture may not print out properly due to the conversion from markdown to PDF is not
-support picture Version number 1 is posted on GitHub
+
+
 <hr>
 
 ## 1. Automation Testing:
@@ -442,7 +442,7 @@ Therefore, automated integration tests greatly increase the likelihood that bugs
 - Data integrity: verify and validate data is not change or corruption when data move from 1 module to another
 - User-based scenarios. One of the most important reasons to conduct integration tests is to create critical user-based scenarios and make sure they play out correctly. Individual components of the software will need to communicate properly when grouped, adapting and responding to multiple possible results. (8)
 - Third-party testing. Integration testing also verifies that groups of modules or units of coding interact properly with Application Programming Interface (API) tools.
-- (8)
+- retrieved from (8)
 #### Disadvantage:
 - Test cases need to be prepared and testing data created
 - A test environment must be set up (cost)
@@ -450,7 +450,10 @@ Therefore, automated integration tests greatly increase the likelihood that bugs
 - Greater difficulty in locating faults.
 - Potential for overlooking a component.
 - Critical, high-level components are tested last.
-- (8)
+- retrieved from (8)
+- Failing to create stubs and drivers required for integration testing will result in poor testing.
+- Carrying out integration testing is challenging and consumes more time
+- retrieved from (14)
 
 ### D. Applications:
 #### Kind of applications:
@@ -703,7 +706,7 @@ It is used for all types of software, but is particularly important for critical
 
 <hr>
 
-## 10. Performance Testing:
+## 10. Performance Testing
 ### A. Introduction:
 ### B. Example/Explain:
 #### Example
