@@ -1,11 +1,12 @@
-# Testing Tools
+# Testing Strategies
 
 ## Abstract:
 
 - The paper is basic introduction to software testing methodologies. Majority of the code is
 is from other researcher (some was written by myself)
 - Paper is written using PyCharm in markdown style and render by [md2pdf](https://md2pdf.netlify.app/)
-
+- Some picture may not print out properly due to the conversion from markdown to PDF is not
+support picture Version number 1 is posted on GitHub
 <hr>
 
 ## 1. Automation Testing:
@@ -16,8 +17,8 @@ is from other researcher (some was written by myself)
 #### Automate UI testing with PyAutoGUI in Python:
 - In the GUI Tets (section number 6) I demonstrate the automated testing using the PyAutoGUI package
 #### Automate UI testing with Selenium and Beautiful Soup in Python:
-  - we can also be using [Selenium](https://selenium-Python.readthedocs.io/), and [Beautiful Soup 4](https://beautiful-soup-4.readthedocs.io/en/latest/) to perform autonomous test tasks
-    - I use Selenium and Beautiful Soup for web scrapping and generating data for reports and research... 
+- we can also be using [Selenium](https://selenium-Python.readthedocs.io/), and [Beautiful Soup 4](https://beautiful-soup-4.readthedocs.io/en/latest/) to perform autonomous test tasks
+- I use Selenium and Beautiful Soup for web scrapping and generating data for reports and research... 
 The purpose is different, but I realize I can use those packages for finding specific elements (container, images link, button, data ...)
 . Then assign tasks (click, keyboard enter) that Selenium allows us to do. Finally, store the script and schedule an appropriate execution time
 #### Automate UI testing with Selenium and Unittest in Python:
@@ -178,7 +179,7 @@ if __name__ == '__main__':
 ```
 - output will be generated using tinker in the picture format
 - output: 
-<img src='images/control-flow-testing.jpg'>
+<img src='https://github.com/jackyhuynh/Software_Development_Handbook/blob/main/documents/testing-software-document/images/control-flow-testing.JPG'>
 ### C. Advantages/Disadvantage
 #### Advantage:
 According to (4), Data Flow testing helps us to pinpoint any of the following issues:
@@ -212,7 +213,7 @@ According to (4), Data Flow testing helps us to pinpoint any of the following is
 ### B. Example/Explain:
 #### Automate UI testing with PyAutoGUI in Python:
 - A case study from Microsoft "Chat System" (5), a system requirement for model-based testing
-```
+```diff
 R1. Users must receive a response for a logon request.
 R2. Users must receive a response for a logoff request.
 R3. Users must receive a response for a list request.
@@ -293,21 +294,19 @@ public void TestSuiteS0() {
 ```python
 # Initial Code:
 # Python
-
 mod = 1000000007
 a = 12345678
 b = 98765432
 c = (a + b) % mod
 
 # Changed Code:
-
 mod = 1007
 a = 12345678
 b = 98765432
 c = (a + b) % mod
 ```
 
-### C. Advantages/Disadvantage
+### C. Advantages/Disadvantage from (7)
 #### Advantage:
 - Brings a good level of error detection in the program.
 - Discovering ambiguities in the source code.
@@ -353,6 +352,12 @@ are meet the system's requirements (functional and non-functional).
   (open a new tab, open a website, type in a website...). We can store the script and execute it as many times as we want
 ```python
 import pyautogui as gui, time
+
+"""
+testfirefox() function will turn on the firefox application by perform automation task
+then it go to https://medium.com/financeexplained to check if Firefox is able to navigate 
+to a web site
+"""
 def testfirefox():
     screenWidth, screenHeight = gui.size()
     gui.moveTo(0,screenHeight)
@@ -368,11 +373,21 @@ def testfirefox():
     gui.click(371,51)
     gui.typewrite('https://medium.com/financeexplained')
     gui.press('enter')
+    
+
+"""
+identifyloc() return the current location of the mouse
+"""    
 def identifyloc():
     while True:
         currentMouseX, currentMouseY = gui.position()
         print(currentMouseX,currentMouseY)
         time.sleep(3)
+        
+
+"""
+call to test
+"""       
 testfirefox()
 ```
 Once the above code has been executed, the os can search for Firefox and then launch the website. 
@@ -562,15 +577,18 @@ better results. (10)
   - Regression Test
   - Prioritization of Test Cases
 ### B. Example/Explain:
-#### Personal experience:
+#### My personal experience:
 - Testing the functionality of the whole application after each update is necessary. Sometimes, I experience
 apply a patch to software or update dependency then my apps don't work properly. Then, I have to roll back to the
 previous version to make the app work (reverse).
 - My method of regression is storing the script of each test suite and executing them in order. Regression testing is extremely important and should be treated with high priority.
-#### test — Regression tests package for Python
+#### test — Regression tests package for Python (12)
 - The test package contains all regression tests for Python as well as the modules test.support and test.regrtest. test.support is used to enhance your tests while test.regrtest drives the testing suite.
 - basic boilerplate is often used:
 ```python
+"""
+Boiler plate for Regression Testing
+"""
 import unittest
 from test import support
 
@@ -579,23 +597,23 @@ class MyTestCase1(unittest.TestCase):
     # Only use setUp() and tearDown() if necessary
 
     def setUp(self):
-        ... code to execute in preparation for tests ...
+        # ... code to execute in preparation for tests ...
 
     def tearDown(self):
-        ... code to execute to clean up after tests ...
+        # ... code to execute to clean up after tests ...
 
     def test_feature_one(self):
         # Test feature one.
-        ... testing code ...
+        # ... testing code ...
 
     def test_feature_two(self):
         # Test feature two.
-        ... testing code ...
+        # ... testing code ...
 
     ... more test methods ...
 
 class MyTestCase2(unittest.TestCase):
-    ... same structure as MyTestCase1 ...
+    # ... same structure as MyTestCase1 ...
 
 ... more test classes ...
 
@@ -619,25 +637,64 @@ if __name__ == '__main__':
 #### Justify:
 - It is always good to test the functionality of any applications after an update. I experience this.
 ### E. Reference:
-[What is Regression Testing?](https://www.guru99.com/regression-testing.html) (11)
-[test — Regression tests package for Python](https://docs.Python.org/3/library/test.html#:~:text=The%20test%20package%20can%20be%20run%20as%20a,running%20all%20regression%20tests%20in%20the%20test%20package.)
+- [What is Regression Testing?](https://www.guru99.com/regression-testing.html) (11)
+- [test — Regression tests package for Python](https://docs.Python.org/3/library/test.html#:~:text=The%20test%20package%20can%20be%20run%20as%20a,running%20all%20regression%20tests%20in%20the%20test%20package.) (12)
 
 
 <hr>
 
 ## 9. Stress Testing
 ### A. Introduction:
+- Stress Testing is a testing methods to determine the stability, reliability, durability and scalability of a software system
+by testing beyond its normal operation.
+- Stress testing even tests beyond the normal operating points and analyses the performance of the system under 
+extreme conditions (limit at which the system breaks or crashes).
+- Type of Stress Testing:
+  - Server-Client Stress Testing 
+  - Product Testing 
+  - Transaction Stress Testing 
+  - Systematic Stress Testing
+  - Analytical Stress Testing 
+- Retrieved from (13)
+
 ### B. Example/Explain:
-#### Example
-```
-```
+Example test plan of a e-commerce app (web app):
+- Introduction: To conduct a stress testing of an e-commerce app, a large number of hitting the app is simulated
+- Plan:
+  ```diff
+  - a much higher number of users (compare to the average/ may be double average) is being generate.
+  - automate all the virtual user and assigned task supervise or unsupervised
+  - simulated (virtual) users' task:
+  + View products
+  + add or remove products
+  + navigate pages
+  + check out
+  - Test if all user is doing 1 task vs. doing multiple task
+  - Test until the system crash
+  - Repeated the test under different condition (depend on purpose)
+  - record the test
+  ```
+- Results:
+  - Goal is to discover bottlenecks or drawbacks in the system
+  - performance improvement or optimization areas
+  - design recovery methods base on test result
+  
 ### C. Advantages/Disadvantage
 #### Advantage:
+- robustness of the system under extreme load
+- The performance of the system is measured under varying amounts of data, and users
+- Understand maximum metric of a system (scalability, performance, application response, and failures)
+to design prevention methods
+- Understand ability of a system to recover from a failure or a crash
+- Guarantees the system will function under regular and irregular conditions properly.
+- Retrieved from (13) and (14)
 #### Disadvantage:
 ### D. Applications:
 #### Kind of applications:
 #### Justify:
 ### E. Reference:
+- [What is Stress Testing In Software Testing](https://www.tutorialspoint.com/what-is-stress-testing-in-software-testing) (13)
+- [Advantages amd Disadvantages of Software Testing](https://accelatest.com/advantages-and-disadvantages-of-software-testing/#:~:text=%20%20%20Performance%20Testing%20Type%20%20,the%20specs%20of%20the%20test%20environm%20...%20) (14)
 
 <hr>
 
