@@ -114,11 +114,27 @@ but we advocate against this in order to create a new and original identity that
 ## 5 User Persona Tips: Beyond the Basics
 There are user persona basics, then there are components that create an exceptional persona that will not only help you understand your target audience but allow you to create better products for them. After you’ve gone through the basic checklist of elements to include in your persona, it’s time to apply these expert tips.
 
-Use a map that depicts your customer/user journey: It can be tough to build a user persona, so try mapping the customer journey instead. This is a great way to study how they use a product and find both positive and negative experiences. 
-Use illustrations and visuals to emphasize persona information: Illustrations and easy-to-digest visuals go a long way in effectively adding context and information. To make your user persona guides more memorable, incorporate design elements that reflect each individual persona. While on the subject of design, we also suggest streamlining layouts between persona guides for ease of comparison. 
-Highlight common metrics and key differences: To avoid comparing abstract things like bios and keywords, try highlighting one similar metric between user personas. At the same time, different people have different goals, problems, and preferences, so pointing out key differences can be useful in keeping marketing campaigns segmented and your product features focused.
-Use sliding scales to define user characteristics: While it’s good to be as specific as possible in your user personas, there are some aspects that are better represented on a sliding scale, such as personality traits and skills. Doing so prevents a persona from being stereotyped or depicted inaccurately. 
-Keep them short and sweet: Lastly, a persona is supposed to be a concise snapshot of a particular segment of your target customer base. Any member of your team should be able to quickly look at the user persona and absorb the information presented to them. If a user persona doesn’t clearly portray who this person is and what motivates them, then it’s time to go back to the drawing board. 
+#### Use a map that depicts your customer/user journey: 
+- It can be tough to build a user persona, so try mapping the customer journey instead. 
+- This is a great way to study how they use a product and find both positive and negative experiences. 
+
+#### Use illustrations and visuals to emphasize persona information:
+- Illustrations and easy-to-digest visuals go a long way in effectively adding context and information. 
+- To make your user persona guides more memorable, incorporate design elements that reflect each individual persona. 
+- While on the subject of design, we also suggest streamlining layouts between persona guides for ease of comparison.
+
+#### Highlight common metrics and key differences:
+- To avoid comparing abstract things like bios and keywords, try highlighting one similar metric between user personas. 
+- At the same time, different people have different goals, problems, and preferences, so pointing out key differences can be useful in keeping marketing campaigns segmented and your product features focused.
+
+#### Use sliding scales to define user characteristics: 
+- While it’s good to be as specific as possible in your user personas, there are some aspects that are better represented on a sliding scale, such as personality traits and skills. 
+- Doing so prevents a persona from being stereotyped or depicted inaccurately.
+
+#### Keep them short and sweet: 
+- Lastly, a persona is supposed to be a concise snapshot of a particular segment of your target customer base. 
+- Any member of your team should be able to quickly look at the user persona and absorb the information presented to them. 
+- If a user persona doesn’t clearly portray who this person is and what motivates them, then it’s time to go back to the drawing board. 
 
 ## References:
 - https://clevertap.com/blog/user-personas/ (1)
