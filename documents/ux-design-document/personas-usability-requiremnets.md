@@ -12,22 +12,50 @@
 - User requiremnets
 - Business requiremnets
 
-### Products requirements refers to all definitions and descriptions of product features and functionality:
+#### A. Products requirements: 
+- Refers to all definitions and descriptions of product features and functionality:
 - Following is a set of questions that may help you best obtain a full understanding of product requirements:
-	- What will the product do? 
+    - What will the product do? 
 	
-	- What is the product’s main functionality? 
+    - What is the product’s main functionality? 
 
-	- What other actions should the product perform? 
+    - What other actions should the product perform? 
 
-•How many sections does the product have? 
+    - How many sections does the product have? 
 
-•How many parameters? 
+    - How many parameters? 
 
-•How does each parameter work? 
+    - How does each parameter work? 
 
-•Does your product require maintenance? 
+    - Does your product require maintenance? 
 
-•Does your product contain replaceable parts? 
+    - Does your product contain replaceable parts? 
 
+#### B. User Requirements:
+- User Requirements refers to information about and classification of possible users. Developing this level of understanding about users involves an investigation into their lifestyle, the current products they use, their expectations, use conditions, and more. Getting users to engage with a product is the ultimate UI/UX goal—that’s why it is essential to gather all the right information about users in order to most effectively satisfy their needs.
+- User Requirements Regarding the user:
+```
+    - Who will be the primary user of the product? 
 
+    - What is the age range for the user? 
+
+    - Where does the user live? 
+
+    - How does the user live (lifestyle)? 
+
+    - What are the user’s everyday life activities? 
+
+    - What are the user’s interests? 
+```
+
+- Regarding the user’s relationship with the product: 
+```
+	- How will the user interact with the product? 
+
+	- What need will the product satisfy for the user? 
+
+	- How is the user currently satisfying this need? 
+
+	- How much will the user be willing to spend on the product? 
+```
+- Business Requirements refers to all aspects of a project that fall outside the actual product and user, such as timeline, branding, business goals, marketing goals, sales goals, competitors, customer service, etc. Although not specifically related to design, Business Requirements often include aspects that will be of interest and concern to product designers.
