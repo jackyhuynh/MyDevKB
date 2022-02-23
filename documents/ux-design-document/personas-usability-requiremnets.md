@@ -13,12 +13,13 @@
 
 ### Types of Requirements:
 - Product requirements
-- User requiremnets
-- Business requiremnets
+- User requirements
+- Business requirements
 
 #### A. Products requirements: 
 - Refers to all definitions and descriptions of product features and functionality:
 - Following is a set of questions that may help you best obtain a full understanding of product requirements:
+```
     - What will the product do? 
 	
     - What is the product’s main functionality? 
@@ -33,7 +34,8 @@
 
     - Does your product require maintenance? 
 
-    - Does your product contain replaceable parts? 
+    - Does your product contain replaceable parts?
+```
 
 #### B. User Requirements:
 - User Requirements refers to information about and classification of possible users. Developing this level of understanding about users involves an investigation into their lifestyle, the current products they use, their expectations, use conditions, and more. Getting users to engage with a product is the ultimate UI/UX goal—that’s why it is essential to gather all the right information about users in order to most effectively satisfy their needs.
@@ -73,13 +75,14 @@ Retrieved from (1): Not sure where to start? Here are some basic features to inc
 
 #### Photo:
 - You always want to put a face to a name. 
-- Some companies choose to use fictional characters and celebrities as their persona photo but we advocate against this in order to create a new and original identity that’s free of stereotypes or preconceived traits.   
+- Some companies choose to use fictional characters and celebrities as their persona photo, 
+but we advocate against this in order to create a new and original identity that’s free of stereotypes or preconceived traits.   
 
 #### Personal motto:
 - Just like a photo, this help build out your persona to make them feel more realistic
 
 #### Bio:
-- Everyone loves a good back story. 
+- Everyone loves a good backstory. 
 - Give your persona a little history. 
 - Where did they grow up? 
 - Why did they choose their current job? 
