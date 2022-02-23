@@ -2,7 +2,8 @@
 
 ## Resources:
 - [Examples of UX Personas](https://qubstudio.com/blog/4-examples-of-ux-personas/)
-- 
+- [Best UX Persona Examples & Templates For Designers to Know Users Better](https://uxplanet.org/best-ux-persona-examples-templates-for-designers-to-know-users-better-dc90421efdbd)
+
 ## Requirements Gathering:
 **Requirements Gathering** is the first step of UI/UX process: A crucial opening step in the product development process, Requirement Gathering brings all involved parties together, both from the UI/UX team and the customer team, to discuss all the project’s goals and details.
 
@@ -62,3 +63,28 @@
 	- How much will the user be willing to spend on the product? 
 ```
 - Business Requirements refers to all aspects of a project that fall outside the actual product and user, such as timeline, branding, business goals, marketing goals, sales goals, competitors, customer service, etc. Although not specifically related to design, Business Requirements often include aspects that will be of interest and concern to product designers.
+
+## How Do You Make a User Personas:
+Retrieved from (1): Not sure where to start? Here are some basic features to include in every user persona. 
+#### Name:
+- User personas should feel like a real person. 
+- Giving them a name is the first step. 
+- Avoid general denominations like “John Doe” or “Sally the Thrifty Shopper.”
+
+#### Photo:
+- You always want to put a face to a name. 
+- Some companies choose to use fictional characters and celebrities as their persona photo but we advocate against this in order to create a new and original identity that’s free of stereotypes or preconceived traits.   
+
+#### Personal motto:
+- Just like a photo, this help build out your persona to make them feel more realistic
+
+#### Bio:
+- Everyone loves a good back story. 
+- Give your persona a little history. 
+- Where did they grow up? 
+- Why did they choose their current job? 
+- How do they spend their free time? 
+- Include some details that help make them unique.
+
+## References:
+- https://clevertap.com/blog/user-personas/ (1)
