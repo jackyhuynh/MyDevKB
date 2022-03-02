@@ -16,3 +16,6 @@ driven, functional, or input/output driven testing)
 – Ignore the code — use the specifications to select test cases
 - Test to code (also called glass-box, logic-driven, structured, or path-oriented testing)
 – Ignore the specifications — use the code to select test cases
+
+## Errors: 
+- Errors
