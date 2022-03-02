@@ -18,7 +18,7 @@ driven, functional, or input/output driven testing)
 – Ignore the specifications — use the code to select test cases
 
 ## Errors: 
-- Errors are create by human daily
+- Errors are created by human daily
 - While correctness attempts to establish that the program is error free, testing 
 attempts to find if there are any errors in it. 
 - Thus, completeness of testing does not necessarily demonstrate that a program is 
@@ -34,4 +34,13 @@ conditions.
 in its intended environment.
 
 ## Test Debug cycle:
-<img src='images/test-debug-cycle.png'>
+<img src='images/test-debug-cycle.JPG'>
+
+## Test plan
+- A test cycle is often guided by a test plan
+- Ex: The **sort program** is to be tested to meet the requirements given earlier. Specially, the following needs to be done:
+  - Execute sort at least two input sequences, one with an 'A' and the other with 'D' as request characters.
+  - Execute the program on an empty input sequences
+  - Test the program for robustness against wrong input
+  - All failures of the test program should be recorde in a suitable file using the Company Failure Report Form
+  - 
