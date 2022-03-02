@@ -18,4 +18,20 @@ driven, functional, or input/output driven testing)
 – Ignore the specifications — use the code to select test cases
 
 ## Errors: 
-- Errors
+- Errors are create by human daily
+- While correctness attempts to establish that the program is error free, testing 
+attempts to find if there are any errors in it. 
+- Thus, completeness of testing does not necessarily demonstrate that a program is 
+error free. 
+- Testing, debugging, and the error removal processes together increase our 
+confidence in the correct functioning of the program under test.
+
+## Software reliability:
+- Software reliability [ANSI/IEEE Std 729-1983]: is the probability of 
+failure free operation of software over a given time interval and under given 
+conditions.
+- Software reliability is the probability of failure free operation  of software 
+in its intended environment.
+
+## Test Debug cycle:
+<img src='images/test-debug-cycle.png'>
