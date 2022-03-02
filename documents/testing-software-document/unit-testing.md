@@ -36,11 +36,29 @@ in its intended environment.
 ## Test Debug cycle:
 <img src='images/test-debug-cycle.JPG'>
 
-## Test plan
+## Test plan:
 - A test cycle is often guided by a test plan
 - Ex: The **sort program** is to be tested to meet the requirements given earlier. Specially, the following needs to be done:
   - Execute sort at least two input sequences, one with an 'A' and the other with 'D' as request characters.
   - Execute the program on an empty input sequences
   - Test the program for robustness against wrong input
   - All failures of the test program should be recorde in a suitable file using the Company Failure Report Form
-  - 
+
+## Test case and test set:
+- A test case is a pair consisting of test data to be input to the program and the 
+expected output. The test data is a set of values, one for each input variable.  
+- A test set is a collection of zero or more test cases.
+
+## Testing vs. Verification:
+- Program verification aims at proving the correctness of programs by showing 
+that it contains no errors. This is very different from testing that aims at 
+uncovering errors in a program
+- Program verification and testing are best considered as complementary techniques. 
+In practice, program verification is often avoided, and the focus is on testing.
+- Testing is not a perfect technique in that a program might contain errors 
+despite the success of a set of tests.
+- Verification promises to verify that a program is free from errors. However, the 
+person/tool who verified a program might have made a mistake in the verification 
+process; there might be an incorrect assumption on the input conditions; incorrect 
+assumptions might be made regarding the components that interface with the 
+program, and so on
