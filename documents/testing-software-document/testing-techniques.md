@@ -186,7 +186,9 @@ if __name__ == '__main__':
 ```
 - output will be generated using tinker in the picture format
 - output: 
-<img src='https://github.com/jackyhuynh/Software_Development_Handbook/blob/main/documents/testing-software-document/images/control-flow-testing.JPG'>
+
+<img src='images/control-flow-testing.JPG'>
+
 ### C. Advantages/Disadvantage
 #### Advantage:
 According to (4), Data Flow testing helps us to pinpoint any of the following issues:
