@@ -178,8 +178,7 @@ if __name__ == '__main__':
       
    tk.Label(frame, text ="Nodes\t\t"+str(nodes), bg = background).pack()
    tk.Label(frame, text ="Edges\t\t"+str(edges), bg = background).pack()
-   tk.Label(frame, text ="Cyclo Complexity\t"+
-         str(complexity), bg = background).pack()
+   tk.Label(frame, text ="Cyclo Complexity\t"+ str(complexity), bg = background).pack()
 
    root.mainloop()
 
@@ -666,12 +665,19 @@ class MyTestCase1(unittest.TestCase):
         # Test feature two.
         # ... testing code ...
 
+"""
     ... more test methods ...
+"""
+
 
 class MyTestCase2(unittest.TestCase):
     # ... same structure as MyTestCase1 ...
 
+
+"""
 ... more test classes ...
+"""
+
 
 if __name__ == '__main__':
     unittest.main()
