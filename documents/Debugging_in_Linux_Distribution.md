@@ -17,7 +17,20 @@ This command starts the Gunicorn proxy server
 ```
 gunicorn --bind 0.0.0.0:5000 wsgi:app
 ```
+```
+# Please refer to some Gunicorn configuration file
+Description=Gunicorn
+```
+[+] Command to set up gunicorn run as a service
+``` bash
+sudo vim /etc/systemd/system/tod.service
+sudo systemctl start tod
+sudo systemctl daemon-reload
+sudo systemctl start tod
+sudo systemctl enable tod
+sudo systemctl status tod
 
+```
 Take a look at the Gunicorn conf file
 https://docs.gunicorn.org/en/stable/install.html
 ```
