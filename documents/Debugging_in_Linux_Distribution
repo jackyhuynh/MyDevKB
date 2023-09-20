@@ -1,1 +1,7 @@
-Debugging
+# Debugging
+
+## Debugging with a Python path:
+`
+python3 -c "import sys; print(sys.path)"
+`
+
