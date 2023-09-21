@@ -1,4 +1,4 @@
-# Debugging
+# Setting up Nginx, Flask Web App, Gunicorn and Systemd within Debian Bulleyes Distribution
 
 ## Debugging with a Python path:
 
@@ -31,8 +31,9 @@ sudo systemctl enable tod
 sudo systemctl status tod
 
 ```
-Take a look at the Gunicorn conf file
-https://docs.gunicorn.org/en/stable/install.html
-```
 
-```
+- Take a look at the Gunicorn conf file, Reference: https://docs.gunicorn.org/en/stable/install.html
+- How to debug nginx.service: Failed to parse PID from file /run/nginx.pid: Invalid argument.
+Reference: https://bobcares.com/blog/failed-to-parse-pid-from-file-run-nginx-pid-invalid-argument/
+- How to serve Flask application and Gunicorn
+https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-18-04
