@@ -89,3 +89,9 @@ sudo systemctl restart todgunicorn
 sudo systemctl restart nginx
 sudo systemctl daemon-reload
 ```
+```
+sudo docker build -t tod:ubuntu-22.04 .
+sudo docker run -it -d --rm -p 8080:8080 --name tod tod:ubuntu-22.04
+sudo docker exec -it tod bash
+sudo docker stop tod
+```
