@@ -84,4 +84,8 @@ ExecStart=/home/tod/env/teton/bin/gunicorn --workers 4 --bind unix:/home/tod/run
 [Install]
 WantedBy=multi-user.target
 ```
-
+```
+sudo systemctl restart todgunicorn
+sudo systemctl restart nginx
+sudo systemctl daemon-reload
+```
