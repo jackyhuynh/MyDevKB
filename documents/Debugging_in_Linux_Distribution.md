@@ -37,3 +37,49 @@ sudo systemctl status tod
 Reference: https://bobcares.com/blog/failed-to-parse-pid-from-file-run-nginx-pid-invalid-argument/
 - How to serve Flask application and Gunicorn
 https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-18-04
+
+For this debugging strategy on Nginx, I am using systemctl to debug and journalctl
+```
+sudo vim /etc/nginx/sites-available/tod.conf
+
+# Content of the file tod.conf:
+server {
+    listen 80;
+    server_name todk.taktivation.com;
+
+    location / {
+        include proxy_params;
+        proxy_pass http://unix:/home/run/tod.sock;
+    }
+
+    location /static/ {
+        root /home/tod/tps_tod;
+    }
+}
+
+# I encounter the issues of nginx.service: Failed to parse PID from file /run/nginx.pid: Invalid argument
+# Fix the resource
+
+sudo tail -f /var/log/nginx/error.log
+
+# Check all the group and see the 
+getent group
+```
+
+Python environment path: PATH=/home/tod/env/teton/bin
+```
+[Unit]
+Description=gunicorn daemon to run the tps_tod app
+After=network.target
+
+[Service]
+User=
+Group=www-data
+WorkingDirectory=/home/tod/tps_tod
+PATH=/home/tod/env/teton/bin
+ExecStart=/home/tod/env/teton/bin/gunicorn --workers 4 --bind unix:/home/tod/run/tod_gunicorn.sock -m 007 wsgi:app
+
+[Install]
+WantedBy=multi-user.target
+```
+
