@@ -57,6 +57,8 @@ server {
     }
 }
 
+sudo ln -s /etc/nginx/sites-available/tod.conf /etc/nginx/sites-enabled
+
 # I encounter the issues of nginx.service: Failed to parse PID from file /run/nginx.pid: Invalid argument
 # Fix the resource
 
