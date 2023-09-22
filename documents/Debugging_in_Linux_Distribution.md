@@ -79,11 +79,12 @@ User=
 Group=www-data
 WorkingDirectory=/home/tod/tps_tod
 PATH=/home/tod/env/teton/bin
-ExecStart=/home/tod/env/teton/bin/gunicorn --workers 4 --bind unix:/home/tod/run/tod_gunicorn.sock -m 007 wsgi:app
+ExecStart=/home/tod/.local/bin/gunicorn --workers 4 --bind unix:/home/tod/run/tod_gunicorn.sock -m 007 wsgi:app
 
 [Install]
 WantedBy=multi-user.target
 ```
+    sudo vim /etc/systemd/system/todgunicorn.service 
 ```
 sudo systemctl restart todgunicorn
 sudo systemctl restart nginx
@@ -94,4 +95,10 @@ sudo docker build -t tod:ubuntu-22.04 .
 sudo docker run -it -d --rm -p 8080:8080 --name tod tod:ubuntu-22.04
 sudo docker exec -it tod bash
 sudo docker stop tod
+```
+
+Enviroment path
+```
+home/tod/.local/bin
+/home/tod/.local/bin:/usr/local/bin:/usr/bin:/bin:
 ```
