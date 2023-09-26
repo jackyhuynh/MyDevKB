@@ -67,7 +67,6 @@ sudo tail -f /var/log/nginx/error.log
 # Check all the group and see the 
 getent group
 ```
-
 Python environment path: PATH=/home/tod/env/teton/bin
 ```
 [Unit]
@@ -97,8 +96,14 @@ sudo docker exec -it tod bash
 sudo docker stop tod
 ```
 
-Enviroment path
+
 ```
+# Enviroment path
 home/tod/.local/bin
 /home/tod/.local/bin:/usr/local/bin:/usr/bin:/bin:
+
+# Path
+/etc/nginx/sites-available/tod.conf
+/etc/systemd/system/todgunicorn.service
 ```
+
