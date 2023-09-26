@@ -107,3 +107,5 @@ home/tod/.local/bin
 /etc/systemd/system/todgunicorn.service
 ```
 
+https://stackoverflow.com/questions/6011235/run-a-program-from-python-and-have-it-continue-to-run-after-the-script-is-kille/16928558#16928558
+
