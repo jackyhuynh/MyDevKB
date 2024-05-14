@@ -7,9 +7,6 @@ Topics covered
 - Software process models 
 - Process activities
 - Coping with change
-
-[Full article on Software Processes](/handbook/SoftwareProcess.md) 
-
 ---
 
 ## Software Develop Management App
