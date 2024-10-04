@@ -1,5 +1,3 @@
-Here’s a refined and organized version of your document with clearer structure and formatting:
-
 # MyDevKB
 
 ## 1. What is Software Process?
@@ -125,7 +123,3 @@ A linear process model where distinct phases like requirements analysis, system 
 - [Origami](https://origami.design)
 - [Sketch](https://www.sketch.com)
 - [AdobeXD](https://www.adobe.com/products/xd.html)
-
----
-
-This reorganization improves clarity and flow by grouping related information, fixing typographical issues, and using proper headings for better readability. Let me know if you'd like further adjustments!
