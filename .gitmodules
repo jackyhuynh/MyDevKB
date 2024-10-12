@@ -1,0 +1,3 @@
+[submodule "MyUserDesignKB"]
+	path = MyUserDesignKB
+	url = https://github.com/jackyhuynh/MyUserDesignKB.git
