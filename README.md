@@ -8,7 +8,7 @@ including both front-end and back-end development, cloud solutions, and DevOps p
 
 ## My Experience
 
-I am a mid-senior developer with expertise in building and optimizing multi-platform applications, transforming legacy
+I am a software developer with expertise in building and optimizing multi-platform applications, transforming legacy
 systems, and leading data-driven development projects. My focus includes cloud-native solutions, data visualization, and
 automation in software development.
 
