@@ -1,5 +1,3 @@
-Here’s a refined version of your README, with improved structure and flow:
-
 # Setting up Nginx, Flask Web App, Gunicorn, and Systemd on Debian Bullseye
 
 ## Debugging the Python Environment
@@ -173,5 +171,3 @@ sudo docker stop tod
 - [Gunicorn Official Documentation](https://docs.gunicorn.org/en/stable/install.html)
 - [Nginx PID Error Fix](https://bobcares.com/blog/failed-to-parse-pid-from-file-run-nginx-pid-invalid-argument/)
 - [How to Serve Flask Applications with Gunicorn and Nginx](https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-18-04)
-
-This version provides a clearer structure and adds minor improvements to readability and the flow of information. Let me know if you'd like to modify or add anything else!

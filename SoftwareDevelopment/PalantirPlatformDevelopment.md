@@ -79,4 +79,6 @@ Developing on Palantir involves several key steps, each utilizing different tool
 
 ---
 
-Conclusion: By following this guide and leveraging Palantir’s powerful set of tools, you’ll be well-prepared to build high-impact applications and dashboards. Whether you’re managing large data sets, visualizing KPIs, or writing custom transformations, Palantir has the tools you need to succeed.
+## **Conclusion** 
+
+By following this guide and leveraging Palantir’s powerful set of tools, you’ll be well-prepared to build high-impact applications and dashboards. Whether you’re managing large data sets, visualizing KPIs, or writing custom transformations, Palantir has the tools you need to succeed.

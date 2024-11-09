@@ -1,6 +1,6 @@
 # Development Tools
 
-## 1. Project Management Tools
+## Project Management Tools
 
 ### a. **Asana**
 A widely-used project management tool known for its intuitive UI and ease of use. Asana helps teams track projects, tasks, and workflows efficiently.
@@ -46,7 +46,7 @@ Azure DevOps is a comprehensive suite of tools for managing DevOps pipelines, bo
 
 ---
 
-## 2. Git User Tools
+## Git User Tools
 
 ### a. **Git**
 Git is the most popular version control system used by developers worldwide. It helps teams collaborate by tracking changes to code.
@@ -68,7 +68,7 @@ GitLab provides a DevOps platform that includes Git repository hosting, CI/CD pi
 
 ---
 
-## 3. Prototyping and Storyboarding Tools
+## Prototyping and Storyboarding Tools
 
 ### a. **Figma**
 Figma is a browser-based design and prototyping tool that allows teams to collaborate in real-time. It is widely adopted by designers for creating UI/UX designs and prototypes.
