@@ -82,3 +82,4 @@ resource "aws_instance" "example" {
 ## Conclusion
 
 Terraform is a powerful tool for infrastructure management, enabling teams to deploy and manage cloud resources effectively. Its versatility, modularity, and support for multi-cloud environments make it an essential tool for modern cloud infrastructure.
+
