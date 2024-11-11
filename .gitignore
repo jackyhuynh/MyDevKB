@@ -122,3 +122,7 @@ $RECYCLE.BIN/
 *.log
 *.sql
 *.sqlite3
+
+.aws/
+credentials
+
