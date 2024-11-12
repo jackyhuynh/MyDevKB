@@ -122,3 +122,12 @@ $RECYCLE.BIN/
 *.log
 *.sql
 *.sqlite3
+
+# AWS
+.aws/
+credentials
+
+# Terraform
+.terraform/
+.terraform.*
+terraform.*
