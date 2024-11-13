@@ -14,7 +14,7 @@ The HTTP provider is a utility provider for interacting with generic HTTP server
 
 As with any provider in can be installed by specifying it with with a terraform configuration block.
 
-![HTTP Provider](img/http_provider.png)
+![HTTP Provider](../images/http_provider.png)
 
 Add the following to the `terraform.tf` file
 

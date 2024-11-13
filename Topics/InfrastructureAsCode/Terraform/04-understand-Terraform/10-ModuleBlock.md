@@ -4,7 +4,7 @@ A module is used to combine resources that are frequently used together into a r
 
 Modules can be sourced from a number of different locations, including remote, such as the Terraform module registry, or locally within a folder. While not required, local modules are commonly saved in a folder named `modules`, and each module is named for its respective function inside that folder. An example of this can be found in the diagram below:
 
-![Module Structure](./img/module-structure.png){ width=65% }
+![Module Structure](../images/module-structure.png){ width=65% }
 
 Modules are defined in a `module` block with a unique name for each module. Within the module block, the `source` indicates the local path of the module or the remote source where Terraform should download the module. You can also specify the `version` of the module to use, along with inputs that are passed to the child module.
 
