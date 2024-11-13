@@ -474,7 +474,7 @@ resource "aws_instance" "ubuntu_server" {
 
 Visit `http://<public_ip>`
 
-![Web Application](img/web_app.png)
+![Web Application](../images/web_app.png)
 
 ### Optional
 
